@@ -15,3 +15,8 @@ TestResult.xml
 Version.cs
 Version.h
 Version.cpp
+*.lock
+
+*.sqlite
+
+.vs/Francis-ABC.D365/v15/Server/sqlite3/

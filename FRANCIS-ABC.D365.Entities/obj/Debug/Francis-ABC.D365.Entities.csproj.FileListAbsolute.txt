@@ -1,0 +1,11 @@
+C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Entities\bin\Debug\Francis-ABC.D365.Entities.dll
+C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Entities\bin\Debug\Francis-ABC.D365.Entities.pdb
+C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Entities\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Entities\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Entities\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Entities\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Entities\obj\Debug\Francis-ABC.D365.Entities.csprojAssemblyReference.cache
+C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Entities\obj\Debug\Francis-ABC.D365.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Entities\obj\Debug\Francis-ABC.D365.Entities.csproj.CopyComplete
+C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Entities\obj\Debug\Francis-ABC.D365.Entities.dll
+C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Entities\obj\Debug\Francis-ABC.D365.Entities.pdb

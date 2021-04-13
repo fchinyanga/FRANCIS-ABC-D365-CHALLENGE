@@ -1,0 +1,2 @@
+C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Plugins\obj\Debug\Francis-ABC.D365.Plugins.csprojAssemblyReference.cache
+C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Plugins\obj\Debug\Francis-ABC.D365.Plugins.csproj.CoreCompileInputs.cache

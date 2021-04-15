@@ -1,10 +1,14 @@
-﻿using System;
-using Francis_ABC.D365.Entities;
-using Microsoft.Xrm.Sdk;
+
+
 
 namespace Francis_ABC.D365.Core.Managers
 {
-  class ContactManager
+
+  using System;
+  using Francis_ABC.D365.Entities;
+  using Microsoft.Xrm.Sdk;
+
+  public class ContactManager
   {
 
     public ContactManager()
@@ -12,7 +16,7 @@ namespace Francis_ABC.D365.Core.Managers
 
     }
 
-    public static void SetValuesForReadOnlyFields(IOrganizationService service, ITracingService tracingService, Contact contact)
+    public static void SetValuesForReadOnlyFields(IOrganizationService organizationService, ITracingService tracingService, Contact contact)
     {
       contact.abc_Age = calculateAge(contact.abc_DateOfBirth);
       contact.abc_MaturityDate = calculateMaturityDate(contact.abc_JoiningDate, contact.abc_InvestmentPeriod);

@@ -13,8 +13,7 @@ namespace Francis_ABC.D365.Core.Helpers.Plugins.AddItemCampaign
     /// Prevents a default instance of the <see cref="InputParameters"/> class from being created.
     /// </summary>
     private InputParameters()
-    {
-    }
+    { }
 
     /// <summary>
     /// Gets the value of the CampaignId input parameter

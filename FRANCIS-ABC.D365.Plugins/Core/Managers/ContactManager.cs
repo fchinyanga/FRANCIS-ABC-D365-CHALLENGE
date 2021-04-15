@@ -37,7 +37,7 @@ namespace Francis_ABC.D365.Plugins.Core.Managers
 
     private static DateTime? calculateMaturityDate(DateTime? abc_JoiningDate, int? abc_InvestmentPeriod)
     {
-      return new DateTime(DateTime.Now.Year + 100, DateTime.Now.Month, DateTime.Now.Day);
+      return new DateTime((int)abc_JoiningDate?.Year, (int)abc_JoiningDate?.Month + (int)abc_InvestmentPeriod, (int)abc_JoiningDate?.Day);
     }
 
     private static Money calculateEstimatedReturn(Money abc_InitialInvestment, decimal? abc_InterestRate, int? abc_InvestmentPeriod)

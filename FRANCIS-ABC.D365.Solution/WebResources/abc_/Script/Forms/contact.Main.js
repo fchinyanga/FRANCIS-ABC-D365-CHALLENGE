@@ -1,4 +1,4 @@
-﻿if (typeof ABC === "undefined") { var ABC = {}; }
+if (typeof ABC === "undefined") { var ABC = {}; }
 if (ABC.Script === undefined) { ABC.Script = {}; }
 if (ABC.Script.Form === undefined) { ABC.Script.Form = {}; }
 if (ABC.Script.Form.contact === undefined) { ABC.Script.Form.contact = {}; }
@@ -32,7 +32,11 @@ if (ABC.Script.Form.contact.Main === undefined) {
         formContext.getAttribute(Francis_ABC.Entities.contact.Fields.emailaddress1).setRequiredLevel(methodOfContact === Francis_ABC.OptionSets.contact.preferredcontactmethodcode.Email ? Francis_ABC.RequiredLevel.required.Required : Francis_ABC.RequiredLevel.required.None
           );
         formContext.getAttribute(Francis_ABC.Entities.contact.Fields.mobilephone).setRequiredLevel(methodOfContact === Francis_ABC.OptionSets.contact.preferredcontactmethodcode.Phone ? Francis_ABC.RequiredLevel.required.Required : Francis_ABC.RequiredLevel.required.None
-        );}
+        );
+        individualClientControl.setDisabled(formContext.getAttribute(Francis_ABC.Entities.contact.Fields.contactid) != null);
+        debugger;
+        corparateClientControl.setDisabled(formContext.getAttribute(Francis_ABC.Entities.contact.Fields.contactid) != null );
+      }
       catch (ex) {
         console.log(ex.message);
       }

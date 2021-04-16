@@ -22,7 +22,7 @@ namespace Francis_ABC.D365.Plugins.Core.Managers
       email["from"] = new Entity[] { fromParty };
       email["to"] = new Entity[] { toParty };
       email["subject"] = "Investment Changed Notification";
-      email["regardingobjectid"] = currentContact.Id;
+      email["regardingobjectid"] = (Guid)currentContact.Id;
       email["description"] = "Previous Investment" + previousInvestment + "" +
       "previousInvestment" + previousInvestment +
       "newInvestment" + newInvestment +
@@ -57,7 +57,7 @@ namespace Francis_ABC.D365.Plugins.Core.Managers
       {
         Target = email,
         TemplateId = templateId,
-        RegardingId = currentContact.Id,
+        RegardingId = (Guid)currentContact.Id,
         RegardingType = Contact.EntityLogicalName
       };
       var emailUsingTemplateResp = (SendEmailFromTemplateResponse)organizationService.Execute(emailUsingTemplateReq);

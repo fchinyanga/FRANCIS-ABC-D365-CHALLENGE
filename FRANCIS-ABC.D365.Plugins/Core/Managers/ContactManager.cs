@@ -34,7 +34,7 @@
 
     private static DateTime? calculateMaturityDate(DateTime? abc_JoiningDate, int? abc_InvestmentPeriod)
     {
-      return new DateTime((int)abc_JoiningDate?.Year, (int)abc_JoiningDate?.Month + (int)abc_InvestmentPeriod, (int)abc_JoiningDate?.Day);
+      return abc_JoiningDate?.AddMonths((int)abc_InvestmentPeriod);
     }
 
     private static Money calculateEstimatedReturn(Money abc_InitialInvestment, decimal? abc_InterestRate, int? abc_InvestmentPeriod)

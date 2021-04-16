@@ -1,4 +1,4 @@
-if (typeof ABC === "undefined") { var ABC = {}; }
+﻿if (typeof ABC === "undefined") { var ABC = {}; }
 if (ABC.Script === undefined) { ABC.Script = {}; }
 if (ABC.Script.Form === undefined) { ABC.Script.Form = {}; }
 if (ABC.Script.Form.contact === undefined) { ABC.Script.Form.contact = {}; }
@@ -21,7 +21,6 @@ if (ABC.Script.Form.contact.Main === undefined) {
 
     businessRules: function (context) {
       try {
-        var formContext = context.getFormContext();
         var formContext = context.getFormContext();
         var clientType = formContext.getAttribute(Francis_ABC.Entities.contact.Fields.abc_typeofclient).getValue();
         var methodOfContact = formContext.getAttribute(Francis_ABC.Entities.contact.Fields.preferredcontactmethodcode).getValue();

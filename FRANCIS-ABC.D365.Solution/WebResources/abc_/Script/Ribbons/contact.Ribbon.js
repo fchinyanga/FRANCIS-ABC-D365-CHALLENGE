@@ -1,4 +1,4 @@
-if (typeof ABC === "undefined") { var ABC = {}; }
+﻿if (typeof ABC === "undefined") { var ABC = {}; }
 if (ABC.Script === undefined) { ABC.Script = {}; }
 if (ABC.Script.Ribbons === undefined) { ABC.Script.Ribbons= {}; }
 if (ABC.Script.Ribbons.contact === undefined) { ABC.Script.Ribbons.contact = {}; }
@@ -34,7 +34,7 @@ if (ABC.Script.Ribbons.contact.Ribbon === undefined) {
                   context.data.refresh().then(function (success) {
                     console.log('refreshed');
                     context.ui.clearFormNotification("extend");
-                       context.ui.setFormNotification("Investment Extended By 6 Months", "INFO", "extended");
+                    context.ui.setFormNotification("Investment Extended By 6 Months", "INFO", "extended");
                     setTimeout(function () {
                       context.ui.clearFormNotification("extended");
                     }, 1000);

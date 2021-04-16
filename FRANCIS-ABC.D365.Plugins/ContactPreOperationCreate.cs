@@ -1,7 +1,7 @@
 ﻿
 namespace Francis_ABC.D365.Plugins
 {
-  using Francis_ABC.D365.Plugins.Core.Helpers.Plugins.Create;
+  using Francis_ABC.D365.Plugins.Core.Helpers.Create;
   using Francis_ABC.D365.Plugins.Core.Managers;
   using Francis_ABC.D365.Plugins.Entities;
 

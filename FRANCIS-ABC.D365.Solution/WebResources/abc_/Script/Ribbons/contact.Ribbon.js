@@ -14,16 +14,22 @@ if (ABC.Script.Ribbons.contact.Ribbon === undefined) {
         D365.Core.WebApi.Retrieve(context,
           Francis_ABC.Entities.contact.ODataEntitySet,
           contactID,
-          [Francis_ABC.Entities.contact.Fields.abc_investmentperiod],
+          [Francis_ABC.Entities.contact.Fields.abc_investmentperiod, Francis_ABC.Entities.contact.Fields.abc_joiningdate],
           function (abc_contact) {
             var currentInvestment = abc_contact.abc_investmentperiod;
+            var newInvestmentDate = currentInvestment + 6;
+            var joiningDate = new Date(abc_contact.abc_joiningdate);
+            var newInvestmentMaturityDate = new Date(joiningDate.setMonth(joiningDate.getMonth() + newInvestmentDate));
+
             debugger;
             try {
             var body = {
-              "abc_investmentperiod": currentInvestment + 6
+              "abc_investmentperiod": newInvestmentDate,
+              "abc_joiningdate": newInvestmentMaturityDate,
+              "abc_statusreason": Francis_ABC.OptionSets.contact.abc_statusreason.ActiveInForce
               };
-              D365.Core.WebApi.Patch(context, "contacts("+ contactID +")?$select=abc_investmentperiod", JSON.stringify(body),
-                function (abc_contact) {
+              D365.Core.WebApi.Patch(context, "contacts("+ abc_contact.contactid+")?$select=abc_investmentperiod", JSON.stringify(body),
+                function (updated_abc_contact) {
                   debugger;
                   context.data.refresh().then(function (success) {
                     console.log('refreshed');
@@ -32,23 +38,27 @@ if (ABC.Script.Ribbons.contact.Ribbon === undefined) {
                     debugger;
                   }, function (error) {
                       console.log('error refreshing');
+                      context.ui.clearFormNotification("extend");
                       debugger;
                   });
                   debugger;
                 },
                 function (error) {
                   console.log(error);
+                  context.ui.clearFormNotification("extend");
                   debugger;
                 }
               );
             }
             catch (error) {
               console.log(error);
+              context.ui.clearFormNotification("extend");
               debugger;
             }
           },
           function (error) {
             console.log(error);
+            context.ui.clearFormNotification("extend");
             debugger;
             alert('Error found while retrieing');
           }
@@ -91,8 +101,8 @@ if (ABC.Script.Ribbons.contact.Ribbon === undefined) {
                   "abc_statusreason": Francis_ABC.OptionSets.contact.abc_statusreason.InactiveMatured,
 
                 };
-                D365.Core.WebApi.Patch(context, "contacts("+contactID +")?$select=abc_investmentperiod", JSON.stringify(body),
-                  function (abc_contact) {
+                D365.Core.WebApi.Patch(context, "contacts("+ abc_contact.contactid+")?$select=abc_investmentperiod", JSON.stringify(body),
+                  function (updated_abc_contact) {
                     debugger;
                     context.data.refresh().then(function (success) {
                       console.log('refreshed');
@@ -100,24 +110,28 @@ if (ABC.Script.Ribbons.contact.Ribbon === undefined) {
                       context.ui.setFormNotification("Status Reason set to Matured", "INFO", "statusReasonChanged");
                       debugger;
                     }, function (error) {
-                      console.log('error refreshing');
+                        console.log('error refreshing');
+                        context.ui.clearFormNotification("setStatusReason");
                       debugger;
                     });
                     debugger;
                   },
                   function (error) {
                     console.log(error);
+                    context.ui.clearFormNotification("setStatusReason");
                     debugger;
                   }
                 );
               } catch (ex) {
                 debugger;
+                context.ui.clearFormNotification("setStatusReason");
                 console.log(ex.message);
               }
             }
           },
           function (error) {
             console.log(error);
+            context.ui.clearFormNotification("setStatusReason");
             debugger;
           }
           

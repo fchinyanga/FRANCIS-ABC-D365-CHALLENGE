@@ -26,7 +26,7 @@
     protected override void ExecuteCrmPlugin(LocalPluginContext localContext)
     {
       localContext.Trace($"Entered my method create task .Execute()");
-      ContactManager.CreateTaskAboutAFollowUpMeeting(localContext.OrganizationService, localContext.ServiceProvider, localContext.TracingService);
+      TaskManager.CreateTaskAboutAFollowUpMeeting(localContext.OrganizationService, localContext.ServiceProvider, localContext.TracingService);
     }
   }
 

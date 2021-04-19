@@ -32,9 +32,10 @@ if (ABC.Script.Form.contact.Main === undefined) {
           );
         formContext.getAttribute(Francis_ABC.Entities.contact.Fields.mobilephone).setRequiredLevel(methodOfContact === Francis_ABC.OptionSets.contact.preferredcontactmethodcode.Phone ? Francis_ABC.RequiredLevel.required.Required : Francis_ABC.RequiredLevel.required.None
         );
-        individualClientControl.setDisabled(formContext.getAttribute(Francis_ABC.Entities.contact.Fields.contactid) != null);
-        debugger;
-        corparateClientControl.setDisabled(formContext.getAttribute(Francis_ABC.Entities.contact.Fields.contactid) != null );
+        if (formContext.ui.getFormType() != 1) {
+          individualClientControl.setDisabled(true);
+          corparateClientControl.setDisabled(true);
+        }
       }
       catch (ex) {
         console.log(ex.message);
@@ -42,7 +43,6 @@ if (ABC.Script.Form.contact.Main === undefined) {
 
     },
     dateOfBirthOnChange: function(context) {
-      //this.businessRules(context);
     },
     clientTypeOnChange: function (context) {
       ABC.Script.Form.contact.Main.businessRules(context);

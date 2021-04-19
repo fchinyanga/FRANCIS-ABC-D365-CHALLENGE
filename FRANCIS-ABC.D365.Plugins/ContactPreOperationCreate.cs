@@ -29,7 +29,7 @@ namespace Francis_ABC.D365.Plugins
     {
       localContext.Trace($"Entered my method .Execute()");
       Contact contact = InputParameters.GetTarget(localContext.PluginExecutionContext).ToEntity<Contact>();
-      ContactManager.SetValuesForReadOnlyFields(localContext.OrganizationService, localContext.TracingService, contact);
+      ContactManager.SetValuesForReadOnlyFieldsOnPreCreate(localContext.OrganizationService, localContext.TracingService, contact);
     }
   }
 

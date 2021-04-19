@@ -4227,6 +4227,47 @@ namespace Francis_ABC.D365.Entities
 		}
 	}
 	
+	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011//")]
+	[Microsoft.Xrm.Sdk.Client.RequestProxyAttribute("LeaveGroup")]
+	public partial class LeaveGroupRequest : Microsoft.Xrm.Sdk.OrganizationRequest
+	{
+		
+		public Microsoft.Xrm.Sdk.EntityReference Target
+		{
+			get
+			{
+				if (this.Parameters.Contains("Target"))
+				{
+					return ((Microsoft.Xrm.Sdk.EntityReference)(this.Parameters["Target"]));
+				}
+				else
+				{
+					return default(Microsoft.Xrm.Sdk.EntityReference);
+				}
+			}
+			set
+			{
+				this.Parameters["Target"] = value;
+			}
+		}
+		
+		public LeaveGroupRequest()
+		{
+			this.RequestName = "LeaveGroup";
+			this.Target = default(Microsoft.Xrm.Sdk.EntityReference);
+		}
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011//")]
+	[Microsoft.Xrm.Sdk.Client.ResponseProxyAttribute("LeaveGroup")]
+	public partial class LeaveGroupResponse : Microsoft.Xrm.Sdk.OrganizationResponse
+	{
+		
+		public LeaveGroupResponse()
+		{
+		}
+	}
+	
 	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011/msdyn/")]
 	[Microsoft.Xrm.Sdk.Client.RequestProxyAttribute("msdyn_OcServiceEndpointShouldBeConfiguredRule")]
 	public partial class msdyn_OcServiceEndpointShouldBeConfiguredRuleRequest : Microsoft.Xrm.Sdk.OrganizationRequest
@@ -10999,6 +11040,171 @@ namespace Francis_ABC.D365.Entities
 		}
 	}
 	
+	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011//")]
+	[Microsoft.Xrm.Sdk.Client.RequestProxyAttribute("RegisterFlowMachine")]
+	public partial class RegisterFlowMachineRequest : Microsoft.Xrm.Sdk.OrganizationRequest
+	{
+		
+		public string machineName
+		{
+			get
+			{
+				if (this.Parameters.Contains("machineName"))
+				{
+					return ((string)(this.Parameters["machineName"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+			set
+			{
+				this.Parameters["machineName"] = value;
+			}
+		}
+		
+		public string machineDescription
+		{
+			get
+			{
+				if (this.Parameters.Contains("machineDescription"))
+				{
+					return ((string)(this.Parameters["machineDescription"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+			set
+			{
+				this.Parameters["machineDescription"] = value;
+			}
+		}
+		
+		public int machineCapacity
+		{
+			get
+			{
+				if (this.Parameters.Contains("machineCapacity"))
+				{
+					return ((int)(this.Parameters["machineCapacity"]));
+				}
+				else
+				{
+					return default(int);
+				}
+			}
+			set
+			{
+				this.Parameters["machineCapacity"] = value;
+			}
+		}
+		
+		public string agentVersion
+		{
+			get
+			{
+				if (this.Parameters.Contains("agentVersion"))
+				{
+					return ((string)(this.Parameters["agentVersion"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+			set
+			{
+				this.Parameters["agentVersion"] = value;
+			}
+		}
+		
+		public string groupPublicKey
+		{
+			get
+			{
+				if (this.Parameters.Contains("groupPublicKey"))
+				{
+					return ((string)(this.Parameters["groupPublicKey"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+			set
+			{
+				this.Parameters["groupPublicKey"] = value;
+			}
+		}
+		
+		public RegisterFlowMachineRequest()
+		{
+			this.RequestName = "RegisterFlowMachine";
+			this.machineName = default(string);
+			this.machineCapacity = default(int);
+			this.agentVersion = default(string);
+			this.groupPublicKey = default(string);
+		}
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011//")]
+	[Microsoft.Xrm.Sdk.Client.ResponseProxyAttribute("RegisterFlowMachine")]
+	public partial class RegisterFlowMachineResponse : Microsoft.Xrm.Sdk.OrganizationResponse
+	{
+		
+		public RegisterFlowMachineResponse()
+		{
+		}
+		
+		public string groupId
+		{
+			get
+			{
+				if (this.Results.Contains("groupId"))
+				{
+					return ((string)(this.Results["groupId"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+		}
+		
+		public string machineId
+		{
+			get
+			{
+				if (this.Results.Contains("machineId"))
+				{
+					return ((string)(this.Results["machineId"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+		}
+		
+		public string relayListenKeys
+		{
+			get
+			{
+				if (this.Results.Contains("relayListenKeys"))
+				{
+					return ((string)(this.Results["relayListenKeys"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+		}
+	}
+	
 	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011/msdyn/")]
 	[Microsoft.Xrm.Sdk.Client.RequestProxyAttribute("msdyn_UpdateOrderLineResourceCategory")]
 	public partial class msdyn_UpdateOrderLineResourceCategoryRequest : Microsoft.Xrm.Sdk.OrganizationRequest
@@ -13524,13 +13730,13 @@ namespace Francis_ABC.D365.Entities
 	public partial class PowerAutomateProxyRequest : Microsoft.Xrm.Sdk.OrganizationRequest
 	{
 		
-		public string BatchRequestContent
+		public string HttpMethod
 		{
 			get
 			{
-				if (this.Parameters.Contains("BatchRequestContent"))
+				if (this.Parameters.Contains("HttpMethod"))
 				{
-					return ((string)(this.Parameters["BatchRequestContent"]));
+					return ((string)(this.Parameters["HttpMethod"]));
 				}
 				else
 				{
@@ -13539,14 +13745,72 @@ namespace Francis_ABC.D365.Entities
 			}
 			set
 			{
-				this.Parameters["BatchRequestContent"] = value;
+				this.Parameters["HttpMethod"] = value;
+			}
+		}
+		
+		public string RelativeUrl
+		{
+			get
+			{
+				if (this.Parameters.Contains("RelativeUrl"))
+				{
+					return ((string)(this.Parameters["RelativeUrl"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+			set
+			{
+				this.Parameters["RelativeUrl"] = value;
+			}
+		}
+		
+		public string RequestHeaders
+		{
+			get
+			{
+				if (this.Parameters.Contains("RequestHeaders"))
+				{
+					return ((string)(this.Parameters["RequestHeaders"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+			set
+			{
+				this.Parameters["RequestHeaders"] = value;
+			}
+		}
+		
+		public string RequestBody
+		{
+			get
+			{
+				if (this.Parameters.Contains("RequestBody"))
+				{
+					return ((string)(this.Parameters["RequestBody"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+			set
+			{
+				this.Parameters["RequestBody"] = value;
 			}
 		}
 		
 		public PowerAutomateProxyRequest()
 		{
 			this.RequestName = "PowerAutomateProxy";
-			this.BatchRequestContent = default(string);
+			this.HttpMethod = default(string);
+			this.RelativeUrl = default(string);
 		}
 	}
 	
@@ -13559,13 +13823,43 @@ namespace Francis_ABC.D365.Entities
 		{
 		}
 		
-		public string BatchResponseContent
+		public int HttpStatusCode
 		{
 			get
 			{
-				if (this.Results.Contains("BatchResponseContent"))
+				if (this.Results.Contains("HttpStatusCode"))
 				{
-					return ((string)(this.Results["BatchResponseContent"]));
+					return ((int)(this.Results["HttpStatusCode"]));
+				}
+				else
+				{
+					return default(int);
+				}
+			}
+		}
+		
+		public string ResponseBody
+		{
+			get
+			{
+				if (this.Results.Contains("ResponseBody"))
+				{
+					return ((string)(this.Results["ResponseBody"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+		}
+		
+		public string ResponseHeaders
+		{
+			get
+			{
+				if (this.Results.Contains("ResponseHeaders"))
+				{
+					return ((string)(this.Results["ResponseHeaders"]));
 				}
 				else
 				{
@@ -29793,6 +30087,62 @@ namespace Francis_ABC.D365.Entities
 		}
 	}
 	
+	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011//")]
+	[Microsoft.Xrm.Sdk.Client.RequestProxyAttribute("BatchGetFlowMachineStatus")]
+	public partial class BatchGetFlowMachineStatusRequest : Microsoft.Xrm.Sdk.OrganizationRequest
+	{
+		
+		public string machineIds
+		{
+			get
+			{
+				if (this.Parameters.Contains("machineIds"))
+				{
+					return ((string)(this.Parameters["machineIds"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+			set
+			{
+				this.Parameters["machineIds"] = value;
+			}
+		}
+		
+		public BatchGetFlowMachineStatusRequest()
+		{
+			this.RequestName = "BatchGetFlowMachineStatus";
+			this.machineIds = default(string);
+		}
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011//")]
+	[Microsoft.Xrm.Sdk.Client.ResponseProxyAttribute("BatchGetFlowMachineStatus")]
+	public partial class BatchGetFlowMachineStatusResponse : Microsoft.Xrm.Sdk.OrganizationResponse
+	{
+		
+		public BatchGetFlowMachineStatusResponse()
+		{
+		}
+		
+		public string machineStatuses
+		{
+			get
+			{
+				if (this.Results.Contains("machineStatuses"))
+				{
+					return ((string)(this.Results["machineStatuses"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+		}
+	}
+	
 	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011/msdyn/")]
 	[Microsoft.Xrm.Sdk.Client.RequestProxyAttribute("msdyn_ActivateProcesses")]
 	public partial class msdyn_ActivateProcessesRequest : Microsoft.Xrm.Sdk.OrganizationRequest
@@ -31667,6 +32017,62 @@ namespace Francis_ABC.D365.Entities
 				else
 				{
 					return default(int);
+				}
+			}
+		}
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011//")]
+	[Microsoft.Xrm.Sdk.Client.RequestProxyAttribute("GetPublicKey")]
+	public partial class GetPublicKeyRequest : Microsoft.Xrm.Sdk.OrganizationRequest
+	{
+		
+		public Microsoft.Xrm.Sdk.EntityReference Target
+		{
+			get
+			{
+				if (this.Parameters.Contains("Target"))
+				{
+					return ((Microsoft.Xrm.Sdk.EntityReference)(this.Parameters["Target"]));
+				}
+				else
+				{
+					return default(Microsoft.Xrm.Sdk.EntityReference);
+				}
+			}
+			set
+			{
+				this.Parameters["Target"] = value;
+			}
+		}
+		
+		public GetPublicKeyRequest()
+		{
+			this.RequestName = "GetPublicKey";
+			this.Target = default(Microsoft.Xrm.Sdk.EntityReference);
+		}
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011//")]
+	[Microsoft.Xrm.Sdk.Client.ResponseProxyAttribute("GetPublicKey")]
+	public partial class GetPublicKeyResponse : Microsoft.Xrm.Sdk.OrganizationResponse
+	{
+		
+		public GetPublicKeyResponse()
+		{
+		}
+		
+		public string groupPublicKey
+		{
+			get
+			{
+				if (this.Results.Contains("groupPublicKey"))
+				{
+					return ((string)(this.Results["groupPublicKey"]));
+				}
+				else
+				{
+					return default(string);
 				}
 			}
 		}

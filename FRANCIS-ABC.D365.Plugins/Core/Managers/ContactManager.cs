@@ -13,12 +13,74 @@
 
     }
 
-    public static void SetValuesForReadOnlyFields(IOrganizationService organizationService, ITracingService tracingService, Contact contact)
+    public static void SetValuesForReadOnlyFieldsOnPreCreate(IOrganizationService organizationService, ITracingService tracingService, Contact contact)
     {
       contact.abc_ClientAge = calculateAge(contact.abc_DateOfBirth);
       contact.abc_StatusReasonEnum = Contact_abc_StatusReason.ActiveInForce;
       contact.abc_MaturityDate = calculateMaturityDate(contact.abc_JoiningDate, contact.abc_InvestmentPeriod);
       contact.abc_EstimatedReturn = calculateEstimatedReturn(contact.abc_InitialInvestment, contact.abc_InterestRate, contact.abc_InvestmentPeriod);
+      tracingService.Trace($"Entered my method .Execute() {contact.abc_ClientAge.ToString()}");
+    }
+
+    public static void SetValuesForReadOnlyFieldsOnPreUpdate(IOrganizationService organizationService, ITracingService tracingService, Contact contactPre, Contact contact)
+    {
+
+      if (contact.abc_DateOfBirth != null)
+      {
+        contact.abc_ClientAge = calculateAge(contact.abc_DateOfBirth);
+      }
+
+      if (contact.abc_JoiningDate != null && contact.abc_InvestmentPeriod != null)
+      {
+        contact.abc_MaturityDate = calculateMaturityDate(contact.abc_JoiningDate, contact.abc_InvestmentPeriod);
+      }
+
+      if (contact.abc_JoiningDate != null && contact.abc_InvestmentPeriod == null)
+      {
+        contact.abc_MaturityDate = calculateMaturityDate(contact.abc_JoiningDate, contactPre.abc_InvestmentPeriod);
+      }
+
+      if (contact.abc_JoiningDate == null && contact.abc_InvestmentPeriod != null)
+      {
+        contact.abc_MaturityDate = calculateMaturityDate(contactPre.abc_JoiningDate, contact.abc_InvestmentPeriod);
+      }
+
+      if (contact.abc_InvestmentPeriod != null && contact.abc_InitialInvestment != null && contact.abc_InterestRate != null)
+      {
+        contact.abc_EstimatedReturn = calculateEstimatedReturn(contact.abc_InitialInvestment, contact.abc_InterestRate, contact.abc_InvestmentPeriod);
+      }
+
+      if (contact.abc_InvestmentPeriod == null && contact.abc_InitialInvestment != null && contact.abc_InterestRate != null)
+      {
+        contact.abc_EstimatedReturn = calculateEstimatedReturn(contact.abc_InitialInvestment, contact.abc_InterestRate, contactPre.abc_InvestmentPeriod);
+      }
+
+      if (contact.abc_InvestmentPeriod == null && contact.abc_InitialInvestment == null && contact.abc_InterestRate != null)
+      {
+        contact.abc_EstimatedReturn = calculateEstimatedReturn(contactPre.abc_InitialInvestment, contact.abc_InterestRate, contactPre.abc_InvestmentPeriod);
+      }
+
+      if (contact.abc_InvestmentPeriod == null && contact.abc_InitialInvestment != null && contact.abc_InterestRate == null)
+      {
+        contact.abc_EstimatedReturn = calculateEstimatedReturn(contact.abc_InitialInvestment, contactPre.abc_InterestRate, contactPre.abc_InvestmentPeriod);
+      }
+
+      if (contact.abc_InvestmentPeriod != null && contact.abc_InitialInvestment == null && contact.abc_InterestRate != null)
+      {
+        contact.abc_EstimatedReturn = calculateEstimatedReturn(contactPre.abc_InitialInvestment, contact.abc_InterestRate, contact.abc_InvestmentPeriod);
+      }
+
+      if (contact.abc_InvestmentPeriod != null && contact.abc_InitialInvestment == null && contact.abc_InterestRate == null)
+      {
+        contact.abc_EstimatedReturn = calculateEstimatedReturn(contactPre.abc_InitialInvestment, contactPre.abc_InterestRate, contact.abc_InvestmentPeriod);
+      }
+
+      if (contact.abc_InvestmentPeriod != null && contact.abc_InitialInvestment != null && contact.abc_InterestRate == null)
+      {
+        contact.abc_EstimatedReturn = calculateEstimatedReturn(contact.abc_InitialInvestment, contactPre.abc_InterestRate, contact.abc_InvestmentPeriod);
+      }
+
+      contact.abc_StatusReasonEnum = Contact_abc_StatusReason.ActiveInForce;
       tracingService.Trace($"Entered my method .Execute() {contact.abc_ClientAge.ToString()}");
     }
 
@@ -54,7 +116,7 @@
         var newInvestmentPeriod = contactPost.abc_InvestmentPeriod;
         Money prevInitialInvestment = contactPre.abc_InitialInvestment;
         Money newInitialInvestment = contactPost.abc_InitialInvestment;
-        EmailManager.sendEmailFromTemplate(service, context, tracingService, prevInitialInvestment, newInitialInvestment,
+        EmailManager.sendEmailFromTemplate(service, contactPost, context, tracingService, prevInitialInvestment, newInitialInvestment,
           prevInterestRate, newInterestRate, prevInvestmentPeriod, newInvestmentPeriod);
       }
 

@@ -1,4 +1,5 @@
 ﻿using System;
+using Francis_ABC.D365.Plugins.Entities;
 using Microsoft.Xrm.Sdk;
 
 namespace Francis_ABC.D365.Plugins.Core.Managers
@@ -14,26 +15,35 @@ namespace Francis_ABC.D365.Plugins.Core.Managers
     {
       IPluginExecutionContext pluginExecutionContext = (IPluginExecutionContext)
     serviceProvider.GetService(typeof(IPluginExecutionContext));
-      tracingService.Trace("Executing create Task Method");
-      Entity followup = new Entity("task");
-      followup["subject"] = "Send e-mail to the new customer.";
-      followup["description"] =
-          "Follow up with the customer. Check if there are any new issues that need resolution.";
-      followup["scheduledstart"] = DateTime.Now.AddDays(7);
-      followup["scheduledend"] = DateTime.Now.AddDays(7);
-      followup["category"] = pluginExecutionContext.PrimaryEntityName;
-      if (pluginExecutionContext.OutputParameters.Contains("id"))
+      try
       {
-        Guid regardingobjectid = new Guid(pluginExecutionContext.OutputParameters["id"].ToString());
-        Guid searchID = (Guid)((Entity)pluginExecutionContext.InputParameters["Target"]).Id;
-        string regardingobjectidType = "contact";
-        tracingService.Trace(searchID.ToString());
-
-        followup["regardingobjectid"] =
-        new EntityReference(regardingobjectidType, regardingobjectid);
+        tracingService.Trace("Executing create Task Method");
+        if (pluginExecutionContext.OutputParameters.Contains("id"))
+        {
+          Guid regardingobjectid = new Guid(pluginExecutionContext.OutputParameters["id"].ToString());
+          Guid searchID = (Guid)((Entity)pluginExecutionContext.InputParameters["Target"]).Id;
+          string regardingobjectidType = "contact";
+          tracingService.Trace(searchID.ToString());
+          Task followupTask = new Task
+          {
+            Subject = "Send e-mail to the new customer.",
+            Description =
+              "Follow up with the customer. Check if there are any new issues that need resolution.",
+            ScheduledStart = DateTime.Now.AddDays(7),
+            ScheduledEnd = DateTime.Now.AddDays(7),
+            Category = pluginExecutionContext.PrimaryEntityName,
+            RegardingObjectId =
+          new EntityReference(regardingobjectidType, regardingobjectid)
+          };
+          tracingService.Trace("FollowupPlugin: Creating the task activity.");
+          service.Create(followupTask);
+        }
       }
-      tracingService.Trace("FollowupPlugin: Creating the task activity.");
-      service.Create(followup);
+      catch (Exception)
+      {
+
+        throw;
+      }
     }
   }
 }

@@ -7,6 +7,7 @@ if (ABC.Script.Ribbons.contact.Ribbon === undefined) {
 
     extendInvestment: function(context) {
       context.ui.setFormNotification("Extending Investment By 6 Months... Please wait...", "INFO", "extend");
+      var formContext = context;
       debugger;
       var contactID = context.data.entity.getId().replace("{", "").replace("}", "");
       debugger;
@@ -14,27 +15,31 @@ if (ABC.Script.Ribbons.contact.Ribbon === undefined) {
         D365.Core.WebApi.Retrieve(context,
           Francis_ABC.Entities.contact.ODataEntitySet,
           contactID,
-          [Francis_ABC.Entities.contact.Fields.abc_investmentperiod, Francis_ABC.Entities.contact.Fields.abc_joiningdate],
+          [Francis_ABC.Entities.contact.Fields.abc_investmentperiod, Francis_ABC.Entities.contact.Fields.abc_joiningdate, Francis_ABC.Entities.contact.Fields.abc_initialinvestment,
+            Francis_ABC.Entities.contact.Fields.abc_interestrate],
           function (abc_contact) {
-            var currentInvestment = abc_contact.abc_investmentperiod;
-            var newInvestmentDate = currentInvestment + 6;
-            var joiningDate = new Date(abc_contact.abc_joiningdate);
-            var newInvestmentMaturityDate = new Date(joiningDate.setMonth(joiningDate.getMonth() + newInvestmentDate));
+            debugger;
+            var currentInvestmentPeriod = formContext.getAttribute(Francis_ABC.Entities.contact.Fields.abc_investmentperiod).getValue();
+            var newInvestmentPeriod = currentInvestmentPeriod + 6;
+            var joiningDate = new Date(formContext.getAttribute(Francis_ABC.Entities.contact.Fields.abc_joiningdate).getValue());
+            var newInvestmentMaturityDate = new Date(joiningDate.setMonth(joiningDate.getMonth() + newInvestmentPeriod));
+            var newEstimatedReturn = formContext.getAttribute(Francis_ABC.Entities.contact.Fields.abc_initialinvestment).getValue() + (formContext.getAttribute(Francis_ABC.Entities.contact.Fields.abc_initialinvestment).getValue() * formContext.getAttribute(Francis_ABC.Entities.contact.Fields.abc_interestrate).getValue() * newInvestmentPeriod/100);
 
             debugger;
             try {
             var body = {
-              "abc_investmentperiod": newInvestmentDate,
-              "abc_joiningdate": newInvestmentMaturityDate,
-              "abc_statusreason": Francis_ABC.OptionSets.contact.abc_statusreason.ActiveInForce
+              "abc_investmentperiod": newInvestmentPeriod,
+              "abc_maturitydate": newInvestmentMaturityDate,
+              "abc_statusreason": Francis_ABC.OptionSets.contact.abc_statusreason.ActiveInForce,
+              "abc_estimatedreturn":newEstimatedReturn
               };
               D365.Core.WebApi.Patch(context, "contacts("+ abc_contact.contactid+")?$select=abc_investmentperiod", JSON.stringify(body),
                 function (updated_abc_contact) {
                   debugger;
-                  context.data.refresh().then(function (success) {
-                    console.log('refreshed');
                     context.ui.clearFormNotification("extend");
                     context.ui.setFormNotification("Investment Extended By 6 Months", "INFO", "extended");
+                  context.data.refresh().then(function (success) {
+                    console.log('refreshed');
                     setTimeout(function () {
                       context.ui.clearFormNotification("extended");
                     }, 1000);
@@ -63,7 +68,7 @@ if (ABC.Script.Ribbons.contact.Ribbon === undefined) {
             console.log(error);
             context.ui.clearFormNotification("extend");
             debugger;
-            alert('Error found while retrieing');
+            alert('Error found while retrieving a record');
           }
         );
       }
@@ -96,6 +101,7 @@ if (ABC.Script.Ribbons.contact.Ribbon === undefined) {
             }
             if (investMaturityDateWithoutTime > currentDateWithoutTime) {
               debugger;
+              context.ui.clearFormNotification("setStatusReason");
               alert('Your investment is not yet matured.\ The investment maturity date is ' + investMaturityDateWithoutTime);
             }
             else {

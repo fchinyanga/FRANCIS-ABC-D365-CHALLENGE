@@ -21,7 +21,15 @@ namespace Francis_ABC.D365.UnitTests
       //Assert.Throws<InvalidOperationException>(() =>
       TaskManager.CreateTaskAboutAFollowUpMeeting(unitTestHelper.OrganizationService, unitTestHelper.ExecutionContext, unitTestHelper.ServiceProvider, unitTestHelper.TracingService);//);
       var activities = unitTestHelper.XrmFakedContext.CreateQuery<Task>().ToList();
-      Assert.Equal((object)1, activities.Count);
+      foreach (var activity in activities)
+      {
+        if (activity.RegardingObjectId.Id == unitTestHelper.Entities.ContactTestContact1.Id && activity.Subject == "Send e-mail to the new customer.")
+        {
+          Assert.True(true);
+          break;
+        }
+        else { Assert.True(false); }
+      }
     }
   }
 }

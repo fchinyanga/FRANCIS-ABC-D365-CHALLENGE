@@ -20,10 +20,10 @@ namespace Francis_ABC.D365.UnitTests
       Assert.Equal(unitTestHelper.Entities.ContactTestContact1.ContactId, ((Entity)unitTestHelper.ExecutionContext.InputParameters["Target"]).Id);
       //Assert.Throws<InvalidOperationException>(() =>
       TaskManager.CreateTaskAboutAFollowUpMeeting(unitTestHelper.OrganizationService, unitTestHelper.ExecutionContext, unitTestHelper.ServiceProvider, unitTestHelper.TracingService);//);
-      var activities = unitTestHelper.XrmFakedContext.CreateQuery<Task>().ToList();
+      var activities = unitTestHelper.XrmFakedContext.CreateQuery<Task>().Where(activity => (activity.RegardingObjectId.Id == unitTestHelper.Entities.ContactTestContact1.Id && activity.Subject == "Send e-mail to the new customer.")).ToList();
       foreach (var activity in activities)
       {
-        if (activity.RegardingObjectId.Id == unitTestHelper.Entities.ContactTestContact1.Id && activity.Subject == "Send e-mail to the new customer.")
+        if (activities.Count > 0)
         {
           Assert.True(true);
           break;

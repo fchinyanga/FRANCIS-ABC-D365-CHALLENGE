@@ -42,14 +42,14 @@ namespace Francis_ABC.D365.UnitTests
         abc_IndividualClientName = "PJ",
         abc_ClientAge = 29,
         abc_InitialInvestment = new Money(1000),
-        abc_InterestRate = 5,
+        abc_InterestRate = 14,
         abc_InvestmentPeriod = 10,
       };
       UnitTestHelper unitTestHelper = new UnitTestHelper();
       unitTestHelper.OrganizationService.Create(contactPre);
       unitTestHelper.OrganizationService.Update(contactPost);
       ContactManager.NotifyClientAboutChanges(unitTestHelper.OrganizationService, unitTestHelper.ExecutionContext, unitTestHelper.ServiceProvider, unitTestHelper.TracingService, contactPre, contactPost);
-      var emails = unitTestHelper.XrmFakedContext.CreateQuery<Email>().Where(e => (e.Subject == "Investment Update Notification")).ToList();
+      var emails = unitTestHelper.XrmFakedContext.CreateQuery<Email>().Where(e => (e.Subject == "Investment Update Notification" && e.RegardingObjectId.Id == contactPre.ToEntityReference().Id)).ToList();
       if (emails.Count > 0)
       {
         Assert.True(true);

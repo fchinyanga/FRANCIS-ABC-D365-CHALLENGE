@@ -30,7 +30,7 @@ namespace Francis_ABC.D365.UnitTests
       unitTestHelper.OrganizationService.Create(contact);
       EmailManager.sendEmailFromTemplate(unitTestHelper.OrganizationService, contact, unitTestHelper.ExecutionContext, unitTestHelper.TracingService,
         contact.abc_InitialInvestment, contact.abc_InitialInvestment, (double)contact.abc_InterestRate, (double)contact.abc_InterestRate, contact.abc_InvestmentPeriod, contact.abc_InvestmentPeriod);
-      var emails = unitTestHelper.XrmFakedContext.CreateQuery<Email>().Where(e => (e.Subject == "Investment Update Notification")).ToList();
+      var emails = unitTestHelper.XrmFakedContext.CreateQuery<Email>().Where(e => (e.Subject == "Investment Update Notification" && e.RegardingObjectId.Id == contact.ToEntityReference().Id)).ToList();
       if (emails.Count > 0)
       {
         Assert.True(true);

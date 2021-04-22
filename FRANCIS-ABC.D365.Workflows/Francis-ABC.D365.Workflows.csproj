@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{25EA9D94-39C4-4C6F-8B2A-998FE5D1E0F8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Francis_ABC.D365.Workflows.Workflows</RootNamespace>
+    <AssemblyName>Francis_ABC.D365.Workflows.Workflows</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Crm.Sdk.Proxy, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CrmSdk.CoreAssemblies.9.0.2.32\lib\net462\Microsoft.Crm.Sdk.Proxy.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xrm.Sdk, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CrmSdk.CoreAssemblies.9.0.2.32\lib\net462\Microsoft.Xrm.Sdk.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xrm.Sdk.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CrmSdk.Workflow.9.0.2.32\lib\net462\Microsoft.Xrm.Sdk.Workflow.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Activities" />
+    <Reference Include="System.Activities.Presentation" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Workflow.Activities" />
+    <Reference Include="System.Workflow.ComponentModel" />
+    <Reference Include="System.Workflow.Runtime" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Runtime.Serialization" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\Francis-ABC.D365.Core\Logging\Logger.cs">
+      <Link>Logger.cs</Link>
+    </Compile>
+    <Compile Include="..\Francis_ABC.D365.Core\Extensions\CollectionExtensions.cs">
+      <Link>Core\Extensions\CollectionExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Francis_ABC.D365.Core\Extensions\DictionaryExtensions.cs">
+      <Link>Core\Extensions\DictionaryExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Francis_ABC.D365.Core\Extensions\EnumExtensions.cs">
+      <Link>Core\Extensions\EnumExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Francis_ABC.D365.Core\Extensions\HashSetExtensions.cs">
+      <Link>Core\Extensions\HashSetExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Francis_ABC.D365.Core\Extensions\IEnumerableExtensions.cs">
+      <Link>Core\Extensions\IEnumerableExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Francis_ABC.D365.Core\Extensions\IOrganizationServiceExtensions.cs">
+      <Link>Core\Extensions\IOrganizationServiceExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Francis_ABC.D365.Core\Extensions\ListExtensions.cs">
+      <Link>Core\Extensions\ListExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Francis_ABC.D365.Core\Extensions\ObjectExtensions.cs">
+      <Link>Core\Extensions\ObjectExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Francis_ABC.D365.Core\Extensions\StringExtensions.cs">
+      <Link>Core\Extensions\StringExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Francis_ABC.D365.Core\Helpers\JsonSerialiserHelper.cs">
+      <Link>Core\Helpers\JsonSerialiserHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\Francis_ABC.D365.Core\Helpers\PluginHelper.cs">
+      <Link>Core\Helpers\PluginHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\Francis_ABC.D365.Core\Logging\DynamicsException.cs">
+      <Link>Core\Logging\DynamicsException.cs</Link>
+    </Compile>
+    <Compile Include="..\Francis_ABC.D365.Core\Logging\DynamicsLogger.cs">
+      <Link>Core\Logging\DynamicsLogger.cs</Link>
+    </Compile>
+    <Compile Include="..\Francis_ABC.D365.Core\Logging\DynamicsTracingService.cs">
+      <Link>Core\Logging\DynamicsTracingService.cs</Link>
+    </Compile>
+    <Compile Include="..\Francis_ABC.D365.Core\Logging\ExceptionExtensions.cs">
+      <Link>Core\Logging\ExceptionExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Francis_ABC.D365.Core\Logging\IDynamicsLogger.cs">
+      <Link>Core\Logging\IDynamicsLogger.cs</Link>
+    </Compile>
+    <Compile Include="..\Francis_ABC.D365.Core\Logging\Logger.cs">
+      <Link>Core\Logging\Logger.cs</Link>
+    </Compile>
+    <Compile Include="..\Francis_ABC.D365.Core\Logging\SourceLocation.cs">
+      <Link>Core\Logging\SourceLocation.cs</Link>
+    </Compile>
+    <Compile Include="..\Francis_ABC.D365.Core\Managers\EntityManager.cs">
+      <Link>Core\Managers\EntityManager.cs</Link>
+    </Compile>
+    <Compile Include="..\Francis_ABC.D365.Core\Managers\SystemUserManager.cs">
+      <Link>Core\Managers\SystemUserManager.cs</Link>
+    </Compile>
+    <Compile Include="..\Francis_ABC.D365.Core\Managers\TeamManager.cs">
+      <Link>Core\Managers\TeamManager.cs</Link>
+    </Compile>
+    <Compile Include="..\Francis_ABC.D365.Core\Services\LazyOrganizationService.cs">
+      <Link>Core\Services\LazyOrganizationService.cs</Link>
+    </Compile>
+    <Compile Include="..\Francis_ABC.D365.Entities\Actions.cs">
+      <Link>Entities\Actions.cs</Link>
+    </Compile>
+    <Compile Include="..\Francis_ABC.D365.Entities\Entities.cs">
+      <Link>Entities\Entities.cs</Link>
+    </Compile>
+    <Compile Include="..\Francis_ABC.D365.Entities\OptionSets.cs">
+      <Link>Entities\OptionSets.cs</Link>
+    </Compile>
+    <Compile Include="Bases\ILocalWorkflowContext.cs" />
+    <Compile Include="Bases\LocalWorkflowContext.cs" />
+    <Compile Include="Bases\WorkFlowActivityBase.cs" />
+    <Compile Include="CrmPluginRegistrationAttribute.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RemindAClientWorkflow.cs" />
+    <Compile Include="WelcomeAClientWorkflow.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

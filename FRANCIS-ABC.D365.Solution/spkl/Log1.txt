@@ -1,0 +1,1685 @@
+13:55:57	Deploying WebResources
+13:55:57	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+13:55:57	Creating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+13:55:58	Adding to solution 'ABC_CHALLENGE'
+13:56:00	Deployed 1 webresource(s)
+13:56:00	Publishing 1 webresources...
+13:56:13	Publish complete.
+13:56:13	Processed 1 section(s)
+13:56:13	Processed 1 config(s)
+14:03:24	Deploying WebResources
+14:03:24	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+14:03:25	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+14:03:26	Adding to solution 'ABC_CHALLENGE'
+14:03:27	Deployed 1 webresource(s)
+14:03:27	Publishing 1 webresources...
+14:03:31	Publish complete.
+14:03:31	Processed 1 section(s)
+14:03:31	Processed 1 config(s)
+14:05:04	Deploying WebResources
+14:05:04	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+14:05:05	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+14:05:06	Adding to solution 'ABC_CHALLENGE'
+14:05:06	Deployed 1 webresource(s)
+14:05:06	Publishing 1 webresources...
+14:05:10	Publish complete.
+14:05:10	Processed 1 section(s)
+14:05:10	Processed 1 config(s)
+14:07:39	Deploying WebResources
+14:07:39	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+14:07:39	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+14:07:41	Adding to solution 'ABC_CHALLENGE'
+14:07:41	Deployed 1 webresource(s)
+14:07:41	Publishing 1 webresources...
+14:07:45	Publish complete.
+14:07:45	Processed 1 section(s)
+14:07:45	Processed 1 config(s)
+14:12:36	Deploying WebResources
+14:12:36	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+14:12:36	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+14:12:37	Adding to solution 'ABC_CHALLENGE'
+14:12:38	Deployed 1 webresource(s)
+14:12:38	Publishing 1 webresources...
+14:12:41	Publish complete.
+14:12:41	Processed 1 section(s)
+14:12:41	Processed 1 config(s)
+15:42:51	Deploying WebResources
+15:42:51	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+15:42:51	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+15:42:53	Adding to solution 'ABC_CHALLENGE'
+15:42:54	Deployed 1 webresource(s)
+15:42:54	Publishing 1 webresources...
+15:42:59	Publish complete.
+15:42:59	Processed 1 section(s)
+15:42:59	Processed 1 config(s)
+15:43:57	Deploying WebResources
+15:43:57	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+15:43:58	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+15:43:59	Adding to solution 'ABC_CHALLENGE'
+15:44:00	Deployed 1 webresource(s)
+15:44:00	Publishing 1 webresources...
+15:44:03	Publish complete.
+15:44:03	Processed 1 section(s)
+15:44:03	Processed 1 config(s)
+15:50:31	Deploying WebResources
+15:50:31	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+15:50:32	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+15:50:33	Adding to solution 'ABC_CHALLENGE'
+15:50:34	Deployed 1 webresource(s)
+15:50:34	Publishing 1 webresources...
+15:50:39	Publish complete.
+15:50:39	Processed 1 section(s)
+15:50:39	Processed 1 config(s)
+15:56:28	Deploying WebResources
+15:56:28	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+15:56:29	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+15:56:30	Adding to solution 'ABC_CHALLENGE'
+15:56:31	Deployed 1 webresource(s)
+15:56:31	Publishing 1 webresources...
+15:56:34	Publish complete.
+15:56:34	Processed 1 section(s)
+15:56:34	Processed 1 config(s)
+15:59:54	Deploying WebResources
+15:59:54	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+15:59:54	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+15:59:55	Adding to solution 'ABC_CHALLENGE'
+15:59:56	Deployed 1 webresource(s)
+15:59:56	Publishing 1 webresources...
+15:59:59	Publish complete.
+15:59:59	Processed 1 section(s)
+15:59:59	Processed 1 config(s)
+16:06:43	Deploying WebResources
+16:06:43	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+16:06:43	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+16:06:44	Adding to solution 'ABC_CHALLENGE'
+16:06:45	Deployed 1 webresource(s)
+16:06:45	Publishing 1 webresources...
+16:06:49	Publish complete.
+16:06:49	Processed 1 section(s)
+16:06:49	Processed 1 config(s)
+16:07:57	Deploying WebResources
+16:07:58	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+16:07:58	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+16:07:59	Adding to solution 'ABC_CHALLENGE'
+16:08:00	Deployed 1 webresource(s)
+16:08:00	Publishing 1 webresources...
+16:08:03	Publish complete.
+16:08:03	Processed 1 section(s)
+16:08:03	Processed 1 config(s)
+16:13:21	Deploying WebResources
+16:13:21	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+16:13:22	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+16:13:23	Adding to solution 'ABC_CHALLENGE'
+16:13:24	Deployed 1 webresource(s)
+16:13:24	Publishing 1 webresources...
+16:13:27	Publish complete.
+16:13:27	Processed 1 section(s)
+16:13:27	Processed 1 config(s)
+16:14:27	Deploying WebResources
+16:14:27	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+16:14:28	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+16:14:29	Adding to solution 'ABC_CHALLENGE'
+16:14:29	Deployed 1 webresource(s)
+16:14:29	Publishing 1 webresources...
+16:14:32	Publish complete.
+16:14:32	Processed 1 section(s)
+16:14:32	Processed 1 config(s)
+16:16:38	Deploying WebResources
+16:16:38	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+16:16:38	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+16:16:39	Adding to solution 'ABC_CHALLENGE'
+16:16:40	Deployed 1 webresource(s)
+16:16:40	Publishing 1 webresources...
+16:16:43	Publish complete.
+16:16:43	Processed 1 section(s)
+16:16:43	Processed 1 config(s)
+16:22:45	Deploying WebResources
+16:22:45	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+16:22:46	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+16:22:47	Adding to solution 'ABC_CHALLENGE'
+16:22:48	Deployed 1 webresource(s)
+16:22:48	Publishing 1 webresources...
+16:22:52	Publish complete.
+16:22:52	Processed 1 section(s)
+16:22:52	Processed 1 config(s)
+16:27:04	Deploying WebResources
+16:27:04	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+16:27:05	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+16:27:05	Deployed 0 webresource(s)
+16:27:05	Publishing 0 webresources...
+16:27:05	Publish complete.
+16:27:05	Processed 1 section(s)
+16:27:05	Processed 1 config(s)
+16:29:14	Deploying WebResources
+16:29:14	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+16:29:15	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+16:29:15	Adding to solution 'ABC_CHALLENGE'
+16:29:16	Deployed 1 webresource(s)
+16:29:16	Publishing 1 webresources...
+16:29:19	Publish complete.
+16:29:19	Processed 1 section(s)
+16:29:19	Processed 1 config(s)
+16:35:37	Deploying WebResources
+16:35:37	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+16:35:37	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+16:35:38	Adding to solution 'ABC_CHALLENGE'
+16:35:39	Deployed 1 webresource(s)
+16:35:39	Publishing 1 webresources...
+16:35:42	Publish complete.
+16:35:42	Processed 1 section(s)
+16:35:42	Processed 1 config(s)
+16:52:37	Deploying WebResources
+16:52:37	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+16:52:38	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+16:52:39	Adding to solution 'ABC_CHALLENGE'
+16:52:40	Deployed 1 webresource(s)
+16:52:40	Publishing 1 webresources...
+16:52:44	Publish complete.
+16:52:44	Processed 1 section(s)
+16:52:44	Processed 1 config(s)
+08:05:24	Deploying WebResources
+08:05:24	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+08:05:24	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+08:05:31	Adding to solution 'ABC_CHALLENGE'
+08:05:32	Deployed 1 webresource(s)
+08:05:32	Publishing 1 webresources...
+08:05:44	Publish complete.
+08:05:44	Processed 1 section(s)
+08:05:44	Processed 1 config(s)
+08:07:42	Deploying WebResources
+08:07:42	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+08:07:43	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+08:07:45	Adding to solution 'ABC_CHALLENGE'
+08:07:45	Deployed 1 webresource(s)
+08:07:45	Publishing 1 webresources...
+08:07:49	Publish complete.
+08:07:49	Processed 1 section(s)
+08:07:49	Processed 1 config(s)
+09:11:39	Deploying WebResources
+09:11:39	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+09:11:40	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+09:11:41	Adding to solution 'ABC_CHALLENGE'
+09:11:41	Deployed 1 webresource(s)
+09:11:41	Publishing 1 webresources...
+09:11:44	Publish complete.
+09:11:44	Processed 1 section(s)
+09:11:44	Processed 1 config(s)
+09:12:41	Deploying WebResources
+09:12:42	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+09:12:42	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+09:12:43	Adding to solution 'ABC_CHALLENGE'
+09:12:44	Deployed 1 webresource(s)
+09:12:44	Publishing 1 webresources...
+09:12:47	Publish complete.
+09:12:47	Processed 1 section(s)
+09:12:47	Processed 1 config(s)
+09:21:31	Deploying WebResources
+09:21:31	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+09:21:32	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+09:21:33	Adding to solution 'ABC_CHALLENGE'
+09:21:33	Deployed 1 webresource(s)
+09:21:33	Publishing 1 webresources...
+09:21:37	Publish complete.
+09:21:37	Processed 1 section(s)
+09:21:37	Processed 1 config(s)
+09:33:54	Deploying WebResources
+09:33:55	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+09:33:55	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+09:33:56	Adding to solution 'ABC_CHALLENGE'
+09:33:57	Deployed 1 webresource(s)
+09:33:57	Publishing 1 webresources...
+09:34:00	Publish complete.
+09:34:00	Processed 1 section(s)
+09:34:00	Processed 1 config(s)
+09:36:02	Deploying WebResources
+09:36:02	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+09:36:02	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+09:36:02	Deployed 0 webresource(s)
+09:36:02	Publishing 0 webresources...
+09:36:02	Publish complete.
+09:36:02	Processed 1 section(s)
+09:36:02	Processed 1 config(s)
+09:41:28	Deploying WebResources
+09:41:28	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+09:41:29	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+09:41:30	Adding to solution 'ABC_CHALLENGE'
+09:41:31	Deployed 1 webresource(s)
+09:41:31	Publishing 1 webresources...
+09:41:33	Publish complete.
+09:41:33	Processed 1 section(s)
+09:41:33	Processed 1 config(s)
+09:48:43	Deploying WebResources
+09:48:43	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+09:48:44	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+09:48:45	Adding to solution 'ABC_CHALLENGE'
+09:48:46	Deployed 1 webresource(s)
+09:48:46	Publishing 1 webresources...
+09:48:49	Publish complete.
+09:48:49	Processed 1 section(s)
+09:48:49	Processed 1 config(s)
+09:52:30	Deploying WebResources
+09:52:30	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+09:52:31	Creating Webresource 'abc_\Script\Core\Francis_ABC.Core.js' -> 'abc_/Script/Core/Francis_ABC.Core.js'
+09:52:32	Adding to solution 'ABC_CHALLENGE'
+09:52:33	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+09:52:33	Deployed 1 webresource(s)
+09:52:33	Publishing 1 webresources...
+09:52:35	Publish complete.
+09:52:35	Processed 1 section(s)
+09:52:35	Processed 1 config(s)
+10:37:12	Deploying WebResources
+10:37:12	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+10:37:13	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+10:37:13	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+10:37:13	Deployed 0 webresource(s)
+10:37:13	Publishing 0 webresources...
+10:37:13	Publish complete.
+10:37:13	Processed 1 section(s)
+10:37:13	Processed 1 config(s)
+11:41:58	Deploying WebResources
+11:41:58	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+11:41:58	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+11:41:59	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+11:42:00	Adding to solution 'ABC_CHALLENGE'
+11:42:01	Deployed 1 webresource(s)
+11:42:01	Publishing 1 webresources...
+11:42:04	Publish complete.
+11:42:04	Processed 1 section(s)
+11:42:04	Processed 1 config(s)
+11:42:19	Deploying WebResources
+11:42:19	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+11:42:20	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+11:42:20	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+11:42:20	Deployed 0 webresource(s)
+11:42:20	Publishing 0 webresources...
+11:42:20	Publish complete.
+11:42:20	Processed 1 section(s)
+11:42:20	Processed 1 config(s)
+11:46:38	Deploying WebResources
+11:46:38	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+11:46:38	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+11:46:39	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+11:46:39	Deployed 0 webresource(s)
+11:46:39	Publishing 0 webresources...
+11:46:39	Publish complete.
+11:46:39	Processed 1 section(s)
+11:46:39	Processed 1 config(s)
+11:52:10	Deploying WebResources
+11:52:10	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+11:52:11	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+11:52:11	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+11:52:12	Adding to solution 'ABC_CHALLENGE'
+11:52:13	Deployed 1 webresource(s)
+11:52:13	Publishing 1 webresources...
+11:52:17	Publish complete.
+11:52:17	Processed 1 section(s)
+11:52:17	Processed 1 config(s)
+11:57:29	Deploying WebResources
+11:57:29	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+11:57:29	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+11:57:30	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+11:57:31	Adding to solution 'ABC_CHALLENGE'
+11:57:32	Deployed 1 webresource(s)
+11:57:32	Publishing 1 webresources...
+11:57:35	Publish complete.
+11:57:35	Processed 1 section(s)
+11:57:35	Processed 1 config(s)
+12:00:49	Deploying WebResources
+12:00:49	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+12:00:50	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+12:00:50	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+12:00:51	Adding to solution 'ABC_CHALLENGE'
+12:00:52	Deployed 1 webresource(s)
+12:00:52	Publishing 1 webresources...
+12:00:55	Publish complete.
+12:00:55	Processed 1 section(s)
+12:00:55	Processed 1 config(s)
+12:06:42	Deploying WebResources
+12:06:42	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+12:06:42	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+12:06:43	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+12:06:44	Adding to solution 'ABC_CHALLENGE'
+12:06:45	Deployed 1 webresource(s)
+12:06:45	Publishing 1 webresources...
+12:06:48	Publish complete.
+12:06:48	Processed 1 section(s)
+12:06:48	Processed 1 config(s)
+12:10:44	Deploying WebResources
+12:10:44	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+12:10:44	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+12:10:45	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+12:10:46	Adding to solution 'ABC_CHALLENGE'
+12:10:46	Deployed 1 webresource(s)
+12:10:46	Publishing 1 webresources...
+12:10:50	Publish complete.
+12:10:50	Processed 1 section(s)
+12:10:50	Processed 1 config(s)
+12:14:51	Deploying WebResources
+12:14:51	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+12:14:51	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+12:14:52	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+12:14:52	Adding to solution 'ABC_CHALLENGE'
+12:14:53	Deployed 1 webresource(s)
+12:14:53	Publishing 1 webresources...
+12:14:56	Publish complete.
+12:14:56	Processed 1 section(s)
+12:14:56	Processed 1 config(s)
+12:21:30	Deploying WebResources
+12:21:30	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+12:21:31	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+12:21:31	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+12:21:32	Adding to solution 'ABC_CHALLENGE'
+12:21:32	Deployed 1 webresource(s)
+12:21:32	Publishing 1 webresources...
+12:21:35	Publish complete.
+12:21:35	Processed 1 section(s)
+12:21:35	Processed 1 config(s)
+12:30:48	Deploying WebResources
+12:30:48	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+12:30:48	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+12:30:49	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+12:30:50	Adding to solution 'ABC_CHALLENGE'
+12:30:50	Deployed 1 webresource(s)
+12:30:50	Publishing 1 webresources...
+12:30:54	Publish complete.
+12:30:54	Processed 1 section(s)
+12:30:54	Processed 1 config(s)
+12:35:14	Deploying WebResources
+12:35:14	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+12:35:14	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+12:35:15	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+12:35:16	Adding to solution 'ABC_CHALLENGE'
+12:35:16	Deployed 1 webresource(s)
+12:35:16	Publishing 1 webresources...
+12:35:20	Publish complete.
+12:35:20	Processed 1 section(s)
+12:35:20	Processed 1 config(s)
+12:41:21	Deploying WebResources
+12:41:21	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+12:41:22	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+12:41:22	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+12:41:23	Adding to solution 'ABC_CHALLENGE'
+12:41:23	Deployed 1 webresource(s)
+12:41:23	Publishing 1 webresources...
+12:41:27	Publish complete.
+12:41:27	Processed 1 section(s)
+12:41:27	Processed 1 config(s)
+12:45:55	Deploying WebResources
+12:45:55	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+12:45:55	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+12:45:56	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+12:45:57	Adding to solution 'ABC_CHALLENGE'
+12:45:57	Deployed 1 webresource(s)
+12:45:57	Publishing 1 webresources...
+12:46:00	Publish complete.
+12:46:00	Processed 1 section(s)
+12:46:00	Processed 1 config(s)
+13:24:36	Deploying WebResources
+13:24:37	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+13:24:37	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+13:24:38	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+13:24:39	Adding to solution 'ABC_CHALLENGE'
+13:24:39	Deployed 1 webresource(s)
+13:24:39	Publishing 1 webresources...
+13:24:43	Publish complete.
+13:24:43	Processed 1 section(s)
+13:24:43	Processed 1 config(s)
+13:26:36	Deploying WebResources
+13:26:36	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+13:26:36	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+13:26:37	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+13:26:38	Adding to solution 'ABC_CHALLENGE'
+13:26:38	Deployed 1 webresource(s)
+13:26:38	Publishing 1 webresources...
+13:26:41	Publish complete.
+13:26:41	Processed 1 section(s)
+13:26:41	Processed 1 config(s)
+16:05:13	Deploying WebResources
+16:05:13	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+16:05:14	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+16:05:14	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+16:05:20	Adding to solution 'ABC_CHALLENGE'
+16:05:21	Deployed 1 webresource(s)
+16:05:21	Publishing 1 webresources...
+16:05:34	Publish complete.
+16:05:34	Processed 1 section(s)
+16:05:34	Processed 1 config(s)
+16:07:35	Deploying WebResources
+16:07:35	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+16:07:35	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+16:07:36	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+16:07:40	Adding to solution 'ABC_CHALLENGE'
+16:07:41	Deployed 1 webresource(s)
+16:07:41	Publishing 1 webresources...
+16:07:46	Publish complete.
+16:07:46	Processed 1 section(s)
+16:07:46	Processed 1 config(s)
+16:23:54	Deploying WebResources
+16:23:54	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+16:23:55	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+16:23:55	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+16:23:56	Adding to solution 'ABC_CHALLENGE'
+16:23:57	Deployed 1 webresource(s)
+16:23:57	Publishing 1 webresources...
+16:24:01	Publish complete.
+16:24:01	Processed 1 section(s)
+16:24:01	Processed 1 config(s)
+16:26:58	Deploying WebResources
+16:26:58	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+16:26:59	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+16:26:59	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+16:27:00	Adding to solution 'ABC_CHALLENGE'
+16:27:01	Deployed 1 webresource(s)
+16:27:01	Publishing 1 webresources...
+16:27:05	Publish complete.
+16:27:05	Processed 1 section(s)
+16:27:05	Processed 1 config(s)
+16:27:40	Deploying WebResources
+16:27:40	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+16:27:40	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+16:27:41	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+16:27:42	Adding to solution 'ABC_CHALLENGE'
+16:27:42	Deployed 1 webresource(s)
+16:27:42	Publishing 1 webresources...
+16:27:46	Publish complete.
+16:27:46	Processed 1 section(s)
+16:27:46	Processed 1 config(s)
+16:30:08	Deploying WebResources
+16:30:08	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+16:30:09	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+16:30:09	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+16:30:10	Adding to solution 'ABC_CHALLENGE'
+16:30:11	Deployed 1 webresource(s)
+16:30:11	Publishing 1 webresources...
+16:30:14	Publish complete.
+16:30:14	Processed 1 section(s)
+16:30:14	Processed 1 config(s)
+16:48:01	Deploying WebResources
+16:48:01	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+16:48:02	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+16:48:02	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+16:48:03	Adding to solution 'ABC_CHALLENGE'
+16:48:04	Deployed 1 webresource(s)
+16:48:04	Publishing 1 webresources...
+16:48:07	Publish complete.
+16:48:07	Processed 1 section(s)
+16:48:07	Processed 1 config(s)
+16:49:17	Deploying WebResources
+16:49:17	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+16:49:18	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+16:49:18	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+16:49:19	Adding to solution 'ABC_CHALLENGE'
+16:49:20	Deployed 1 webresource(s)
+16:49:20	Publishing 1 webresources...
+16:49:23	Publish complete.
+16:49:23	Processed 1 section(s)
+16:49:23	Processed 1 config(s)
+16:51:49	Deploying WebResources
+16:51:49	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+16:51:50	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+16:51:50	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+16:51:51	Adding to solution 'ABC_CHALLENGE'
+16:51:52	Deployed 1 webresource(s)
+16:51:52	Publishing 1 webresources...
+16:51:57	Publish complete.
+16:51:57	Processed 1 section(s)
+16:51:57	Processed 1 config(s)
+11:14:05	Deploying WebResources
+11:14:05	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+11:14:05	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+11:14:06	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+11:14:06	Creating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+11:14:07	Adding to solution 'ABC_CHALLENGE'
+11:14:09	Deployed 1 webresource(s)
+11:14:09	Publishing 1 webresources...
+11:14:13	Publish complete.
+11:14:13	Processed 1 section(s)
+11:14:13	Processed 1 config(s)
+11:49:34	Deploying WebResources
+11:49:34	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+11:49:34	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+11:49:34	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+11:49:35	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+11:49:36	Adding to solution 'ABC_CHALLENGE'
+11:49:36	Deployed 1 webresource(s)
+11:49:36	Publishing 1 webresources...
+11:49:40	Publish complete.
+11:49:40	Processed 1 section(s)
+11:49:40	Processed 1 config(s)
+12:56:56	Deploying WebResources
+12:56:56	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+12:56:56	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+12:56:57	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+12:56:57	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+12:56:58	Adding to solution 'ABC_CHALLENGE'
+12:56:59	Deployed 1 webresource(s)
+12:56:59	Publishing 1 webresources...
+12:57:05	Publish complete.
+12:57:05	Processed 1 section(s)
+12:57:05	Processed 1 config(s)
+13:03:10	Deploying WebResources
+13:03:10	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+13:03:10	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+13:03:11	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+13:03:11	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+13:03:12	Adding to solution 'ABC_CHALLENGE'
+13:03:12	Deployed 1 webresource(s)
+13:03:12	Publishing 1 webresources...
+13:03:15	Publish complete.
+13:03:15	Processed 1 section(s)
+13:03:15	Processed 1 config(s)
+13:18:36	Deploying WebResources
+13:18:36	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+13:18:37	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+13:18:37	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+13:18:38	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+13:18:38	Adding to solution 'ABC_CHALLENGE'
+13:18:39	Deployed 1 webresource(s)
+13:18:39	Publishing 1 webresources...
+13:18:44	Publish complete.
+13:18:44	Processed 1 section(s)
+13:18:44	Processed 1 config(s)
+13:25:47	Deploying WebResources
+13:25:47	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+13:25:47	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+13:25:48	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+13:25:48	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+13:25:49	Adding to solution 'ABC_CHALLENGE'
+13:25:49	Deployed 1 webresource(s)
+13:25:49	Publishing 1 webresources...
+13:25:52	Publish complete.
+13:25:52	Processed 1 section(s)
+13:25:52	Processed 1 config(s)
+13:39:13	Deploying WebResources
+13:39:13	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+13:39:14	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+13:39:14	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+13:39:15	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+13:39:15	Adding to solution 'ABC_CHALLENGE'
+13:39:16	Deployed 1 webresource(s)
+13:39:16	Publishing 1 webresources...
+13:39:19	Publish complete.
+13:39:19	Processed 1 section(s)
+13:39:19	Processed 1 config(s)
+13:41:03	Deploying WebResources
+13:41:03	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+13:41:04	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+13:41:04	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+13:41:05	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+13:41:05	Adding to solution 'ABC_CHALLENGE'
+13:41:06	Deployed 1 webresource(s)
+13:41:06	Publishing 1 webresources...
+13:41:09	Publish complete.
+13:41:09	Processed 1 section(s)
+13:41:09	Processed 1 config(s)
+13:45:39	Deploying WebResources
+13:45:39	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+13:45:40	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+13:45:40	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+13:45:41	abc_/Script/Ribbons/contact.Ribbon.js has not changed, skipping...
+13:45:41	Deployed 0 webresource(s)
+13:45:41	Publishing 0 webresources...
+13:45:41	Publish complete.
+13:45:41	Processed 1 section(s)
+13:45:41	Processed 1 config(s)
+13:57:57	Deploying WebResources
+13:57:57	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+13:57:58	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+13:57:58	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+13:57:58	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+13:57:59	Adding to solution 'ABC_CHALLENGE'
+13:58:00	Deployed 1 webresource(s)
+13:58:00	Publishing 1 webresources...
+13:58:03	Publish complete.
+13:58:03	Processed 1 section(s)
+13:58:03	Processed 1 config(s)
+14:01:23	Deploying WebResources
+14:01:23	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+14:01:23	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+14:01:23	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+14:01:24	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+14:01:24	Adding to solution 'ABC_CHALLENGE'
+14:01:25	Deployed 1 webresource(s)
+14:01:25	Publishing 1 webresources...
+14:01:29	Publish complete.
+14:01:29	Processed 1 section(s)
+14:01:29	Processed 1 config(s)
+14:07:55	Deploying WebResources
+14:07:55	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+14:07:55	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+14:07:56	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+14:07:56	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+14:07:57	Adding to solution 'ABC_CHALLENGE'
+14:07:57	Deployed 1 webresource(s)
+14:07:57	Publishing 1 webresources...
+14:08:00	Publish complete.
+14:08:00	Processed 1 section(s)
+14:08:00	Processed 1 config(s)
+14:14:09	Deploying WebResources
+14:14:09	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+14:14:10	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+14:14:10	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+14:14:10	abc_/Script/Ribbons/contact.Ribbon.js has not changed, skipping...
+14:14:10	Deployed 0 webresource(s)
+14:14:10	Publishing 0 webresources...
+14:14:10	Publish complete.
+14:14:10	Processed 1 section(s)
+14:14:10	Processed 1 config(s)
+14:43:03	Deploying WebResources
+14:43:03	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+14:43:04	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+14:43:04	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+14:43:05	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+14:43:05	Adding to solution 'ABC_CHALLENGE'
+14:43:06	Deployed 1 webresource(s)
+14:43:06	Publishing 1 webresources...
+14:43:09	Publish complete.
+14:43:09	Processed 1 section(s)
+14:43:09	Processed 1 config(s)
+14:45:12	Deploying WebResources
+14:45:12	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+14:45:12	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+14:45:13	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+14:45:13	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+14:45:14	Adding to solution 'ABC_CHALLENGE'
+14:45:14	Deployed 1 webresource(s)
+14:45:14	Publishing 1 webresources...
+14:45:18	Publish complete.
+14:45:18	Processed 1 section(s)
+14:45:18	Processed 1 config(s)
+14:50:51	Deploying WebResources
+14:50:51	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+14:50:52	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+14:50:52	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+14:50:52	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+14:50:53	Adding to solution 'ABC_CHALLENGE'
+14:50:54	Deployed 1 webresource(s)
+14:50:54	Publishing 1 webresources...
+14:50:57	Publish complete.
+14:50:57	Processed 1 section(s)
+14:50:57	Processed 1 config(s)
+14:53:35	Deploying WebResources
+14:53:35	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+14:53:35	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+14:53:36	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+14:53:36	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+14:53:37	Adding to solution 'ABC_CHALLENGE'
+14:53:37	Deployed 1 webresource(s)
+14:53:37	Publishing 1 webresources...
+14:53:40	Publish complete.
+14:53:40	Processed 1 section(s)
+14:53:40	Processed 1 config(s)
+14:56:38	Deploying WebResources
+14:56:38	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+14:56:38	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+14:56:38	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+14:56:39	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+14:56:39	Adding to solution 'ABC_CHALLENGE'
+14:56:40	Deployed 1 webresource(s)
+14:56:40	Publishing 1 webresources...
+14:56:43	Publish complete.
+14:56:43	Processed 1 section(s)
+14:56:43	Processed 1 config(s)
+14:59:41	Deploying WebResources
+14:59:41	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+14:59:42	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+14:59:42	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+14:59:43	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+14:59:43	Adding to solution 'ABC_CHALLENGE'
+14:59:44	Deployed 1 webresource(s)
+14:59:44	Publishing 1 webresources...
+14:59:48	Publish complete.
+14:59:48	Processed 1 section(s)
+14:59:48	Processed 1 config(s)
+15:03:58	Deploying WebResources
+15:03:58	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+15:03:59	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+15:03:59	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+15:03:59	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+15:04:00	Adding to solution 'ABC_CHALLENGE'
+15:04:01	Deployed 1 webresource(s)
+15:04:01	Publishing 1 webresources...
+15:04:03	Publish complete.
+15:04:03	Processed 1 section(s)
+15:04:03	Processed 1 config(s)
+15:09:38	Deploying WebResources
+15:09:38	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+15:09:38	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+15:09:39	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+15:09:39	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+15:09:40	Adding to solution 'ABC_CHALLENGE'
+15:09:40	Deployed 1 webresource(s)
+15:09:40	Publishing 1 webresources...
+15:09:43	Publish complete.
+15:09:43	Processed 1 section(s)
+15:09:43	Processed 1 config(s)
+15:16:11	Deploying WebResources
+15:16:11	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+15:16:12	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+15:16:12	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+15:16:13	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+15:16:13	Adding to solution 'ABC_CHALLENGE'
+15:16:14	Deployed 1 webresource(s)
+15:16:14	Publishing 1 webresources...
+15:16:17	Publish complete.
+15:16:17	Processed 1 section(s)
+15:16:17	Processed 1 config(s)
+15:18:25	Deploying WebResources
+15:18:25	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+15:18:25	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+15:18:26	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+15:18:26	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+15:18:27	Adding to solution 'ABC_CHALLENGE'
+15:18:27	Deployed 1 webresource(s)
+15:18:27	Publishing 1 webresources...
+15:18:30	Publish complete.
+15:18:30	Processed 1 section(s)
+15:18:30	Processed 1 config(s)
+15:27:55	Deploying WebResources
+15:27:55	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+15:27:56	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+15:27:56	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+15:27:57	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+15:27:57	Adding to solution 'ABC_CHALLENGE'
+15:27:58	Deployed 1 webresource(s)
+15:27:58	Publishing 1 webresources...
+15:28:01	Publish complete.
+15:28:01	Processed 1 section(s)
+15:28:01	Processed 1 config(s)
+15:33:45	Deploying WebResources
+15:33:46	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+15:33:46	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+15:33:46	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+15:33:47	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+15:33:47	Adding to solution 'ABC_CHALLENGE'
+15:33:48	Deployed 1 webresource(s)
+15:33:48	Publishing 1 webresources...
+15:33:51	Publish complete.
+15:33:51	Processed 1 section(s)
+15:33:51	Processed 1 config(s)
+15:52:14	Deploying WebResources
+15:52:14	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+15:52:15	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+15:52:15	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+15:52:16	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+15:52:16	Adding to solution 'ABC_CHALLENGE'
+15:52:17	Deployed 1 webresource(s)
+15:52:17	Publishing 1 webresources...
+15:52:20	Publish complete.
+15:52:20	Processed 1 section(s)
+15:52:20	Processed 1 config(s)
+15:57:49	Deploying WebResources
+15:57:49	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+15:57:50	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+15:57:50	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+15:57:50	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+15:57:51	Adding to solution 'ABC_CHALLENGE'
+15:57:52	Deployed 1 webresource(s)
+15:57:52	Publishing 1 webresources...
+15:57:55	Publish complete.
+15:57:55	Processed 1 section(s)
+15:57:55	Processed 1 config(s)
+09:02:35	Deploying WebResources
+09:02:36	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+09:02:36	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+09:02:37	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+09:02:37	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+09:02:39	Adding to solution 'ABC_CHALLENGE'
+09:02:41	Deployed 1 webresource(s)
+09:02:41	Publishing 1 webresources...
+09:02:54	Publish complete.
+09:02:54	Processed 1 section(s)
+09:02:54	Processed 1 config(s)
+09:06:14	Deploying WebResources
+09:06:14	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+09:06:15	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+09:06:15	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+09:06:16	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+09:06:16	Adding to solution 'ABC_CHALLENGE'
+09:06:17	Deployed 1 webresource(s)
+09:06:17	Publishing 1 webresources...
+09:06:23	Publish complete.
+09:06:23	Processed 1 section(s)
+09:06:23	Processed 1 config(s)
+09:06:44	Deploying WebResources
+09:06:44	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+09:06:44	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+09:06:45	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+09:06:45	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+09:06:46	Adding to solution 'ABC_CHALLENGE'
+09:06:47	Deployed 1 webresource(s)
+09:06:47	Publishing 1 webresources...
+09:06:52	Publish complete.
+09:06:52	Processed 1 section(s)
+09:06:52	Processed 1 config(s)
+09:08:27	Deploying WebResources
+09:08:27	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+09:08:28	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+09:08:28	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+09:08:29	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+09:08:29	Adding to solution 'ABC_CHALLENGE'
+09:08:30	Deployed 1 webresource(s)
+09:08:30	Publishing 1 webresources...
+09:08:33	Publish complete.
+09:08:33	Processed 1 section(s)
+09:08:33	Processed 1 config(s)
+09:41:44	Deploying WebResources
+09:41:44	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+09:41:45	Updating Webresource 'abc_\Script\Core\Francis_ABC.Core.js' -> 'abc_/Script/Core/Francis_ABC.Core.js'
+09:41:47	Adding to solution 'ABC_CHALLENGE'
+09:41:48	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+09:41:49	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+09:41:50	Adding to solution 'ABC_CHALLENGE'
+09:41:50	Deployed 2 webresource(s)
+09:41:50	Publishing 2 webresources...
+09:42:00	Publish complete.
+09:42:00	Processed 1 section(s)
+09:42:00	Processed 1 config(s)
+09:45:30	Deploying WebResources
+09:45:30	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+09:45:31	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+09:45:31	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+09:45:32	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+09:45:32	Adding to solution 'ABC_CHALLENGE'
+09:45:33	Deployed 1 webresource(s)
+09:45:33	Publishing 1 webresources...
+09:45:41	Publish complete.
+09:45:41	Processed 1 section(s)
+09:45:41	Processed 1 config(s)
+09:50:25	Deploying WebResources
+09:50:26	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+09:50:26	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+09:50:27	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+09:50:27	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+09:50:28	Adding to solution 'ABC_CHALLENGE'
+09:50:29	Deployed 1 webresource(s)
+09:50:29	Publishing 1 webresources...
+09:50:35	Publish complete.
+09:50:35	Processed 1 section(s)
+09:50:35	Processed 1 config(s)
+10:06:05	Deploying WebResources
+10:06:05	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+10:06:05	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+10:06:06	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+10:06:06	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+10:06:07	Adding to solution 'ABC_CHALLENGE'
+10:06:08	Deployed 1 webresource(s)
+10:06:08	Publishing 1 webresources...
+10:06:24	Publish complete.
+10:06:24	Processed 1 section(s)
+10:06:24	Processed 1 config(s)
+10:15:54	Deploying WebResources
+10:15:54	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+10:15:55	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+10:15:55	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+10:15:55	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+10:15:58	Adding to solution 'ABC_CHALLENGE'
+10:16:00	Deployed 1 webresource(s)
+10:16:00	Publishing 1 webresources...
+10:16:11	Publish complete.
+10:16:11	Processed 1 section(s)
+10:16:11	Processed 1 config(s)
+10:16:35	Deploying WebResources
+10:16:35	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+10:16:36	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+10:16:36	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+10:16:36	abc_/Script/Ribbons/contact.Ribbon.js has not changed, skipping...
+10:16:36	Deployed 0 webresource(s)
+10:16:36	Publishing 0 webresources...
+10:16:36	Publish complete.
+10:16:36	Processed 1 section(s)
+10:16:36	Processed 1 config(s)
+10:26:17	Deploying WebResources
+10:26:17	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+10:26:17	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+10:26:18	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+10:26:18	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+10:26:19	Adding to solution 'ABC_CHALLENGE'
+10:26:20	Deployed 1 webresource(s)
+10:26:20	Publishing 1 webresources...
+10:26:40	Publish complete.
+10:26:40	Processed 1 section(s)
+10:26:40	Processed 1 config(s)
+10:29:20	Deploying WebResources
+10:29:21	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+10:29:21	Creating Webresource 'abc_\Script\Core\D365.Core.js' -> 'abc_/Script/Core/D365.Core.js'
+10:29:25	Adding to solution 'ABC_CHALLENGE'
+10:29:27	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+10:29:27	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+10:29:27	abc_/Script/Ribbons/contact.Ribbon.js has not changed, skipping...
+10:29:27	Deployed 1 webresource(s)
+10:29:27	Publishing 1 webresources...
+10:29:37	Publish complete.
+10:29:37	Processed 1 section(s)
+10:29:37	Processed 1 config(s)
+10:47:54	Deploying WebResources
+10:47:54	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+10:47:55	abc_/Script/Core/D365.Core.js has not changed, skipping...
+10:47:55	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+10:47:56	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+10:47:56	abc_/Script/Ribbons/contact.Ribbon.js has not changed, skipping...
+10:47:56	Deployed 0 webresource(s)
+10:47:56	Publishing 0 webresources...
+10:47:56	Publish complete.
+10:47:56	Processed 1 section(s)
+10:47:56	Processed 1 config(s)
+10:57:18	Deploying WebResources
+10:57:18	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+10:57:19	abc_/Script/Core/D365.Core.js has not changed, skipping...
+10:57:19	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+10:57:20	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+10:57:20	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+10:57:22	Adding to solution 'ABC_CHALLENGE'
+10:57:23	Deployed 1 webresource(s)
+10:57:23	Publishing 1 webresources...
+10:57:34	Publish complete.
+10:57:34	Processed 1 section(s)
+10:57:34	Processed 1 config(s)
+11:03:20	Deploying WebResources
+11:03:20	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+11:03:21	abc_/Script/Core/D365.Core.js has not changed, skipping...
+11:03:21	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+11:03:21	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+11:03:22	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+11:03:23	Adding to solution 'ABC_CHALLENGE'
+11:03:24	Deployed 1 webresource(s)
+11:03:24	Publishing 1 webresources...
+11:03:32	Publish complete.
+11:03:32	Processed 1 section(s)
+11:03:32	Processed 1 config(s)
+11:20:38	Deploying WebResources
+11:20:38	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+11:20:39	abc_/Script/Core/D365.Core.js has not changed, skipping...
+11:20:39	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+11:20:39	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+11:20:40	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+11:20:43	Adding to solution 'ABC_CHALLENGE'
+11:20:44	Deployed 1 webresource(s)
+11:20:44	Publishing 1 webresources...
+11:20:50	Publish complete.
+11:20:50	Processed 1 section(s)
+11:20:50	Processed 1 config(s)
+11:41:21	Deploying WebResources
+11:41:21	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+11:41:21	Updating Webresource 'abc_\Script\Core\D365.Core.js' -> 'abc_/Script/Core/D365.Core.js'
+11:41:26	Adding to solution 'ABC_CHALLENGE'
+11:41:28	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+11:41:28	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+11:41:29	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+11:41:31	Adding to solution 'ABC_CHALLENGE'
+11:41:32	Deployed 2 webresource(s)
+11:41:32	Publishing 2 webresources...
+11:41:50	Publish complete.
+11:41:50	Processed 1 section(s)
+11:41:50	Processed 1 config(s)
+11:47:45	Deploying WebResources
+11:47:45	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+11:47:46	Updating Webresource 'abc_\Script\Core\D365.Core.js' -> 'abc_/Script/Core/D365.Core.js'
+11:47:48	Adding to solution 'ABC_CHALLENGE'
+11:47:49	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+11:47:50	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+11:47:50	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+11:47:52	Adding to solution 'ABC_CHALLENGE'
+11:47:52	Deployed 2 webresource(s)
+11:47:52	Publishing 2 webresources...
+11:48:02	Publish complete.
+11:48:02	Processed 1 section(s)
+11:48:02	Processed 1 config(s)
+12:53:13	Deploying WebResources
+12:53:13	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+12:53:14	Updating Webresource 'abc_\Script\Core\D365.Core.js' -> 'abc_/Script/Core/D365.Core.js'
+12:53:22	Adding to solution 'ABC_CHALLENGE'
+12:53:23	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+12:53:24	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+12:53:24	abc_/Script/Ribbons/contact.Ribbon.js has not changed, skipping...
+12:53:24	Deployed 1 webresource(s)
+12:53:24	Publishing 1 webresources...
+12:53:36	Publish complete.
+12:53:36	Processed 1 section(s)
+12:53:36	Processed 1 config(s)
+13:02:09	Deploying WebResources
+13:02:09	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+13:02:10	Updating Webresource 'abc_\Script\Core\D365.Core.js' -> 'abc_/Script/Core/D365.Core.js'
+13:02:13	Adding to solution 'ABC_CHALLENGE'
+13:02:14	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+13:02:14	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+13:02:15	abc_/Script/Ribbons/contact.Ribbon.js has not changed, skipping...
+13:02:15	Deployed 1 webresource(s)
+13:02:15	Publishing 1 webresources...
+13:02:27	Publish complete.
+13:02:27	Processed 1 section(s)
+13:02:27	Processed 1 config(s)
+13:07:42	Deploying WebResources
+13:07:42	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+13:07:43	abc_/Script/Core/D365.Core.js has not changed, skipping...
+13:07:43	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+13:07:44	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+13:07:44	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+13:07:47	Adding to solution 'ABC_CHALLENGE'
+13:07:48	Deployed 1 webresource(s)
+13:07:48	Publishing 1 webresources...
+13:07:59	Publish complete.
+13:07:59	Processed 1 section(s)
+13:07:59	Processed 1 config(s)
+13:21:32	Deploying WebResources
+13:21:33	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+13:21:33	Updating Webresource 'abc_\Script\Core\D365.Core.js' -> 'abc_/Script/Core/D365.Core.js'
+13:21:35	Adding to solution 'ABC_CHALLENGE'
+13:21:37	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+13:21:38	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+13:21:38	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+13:21:40	Adding to solution 'ABC_CHALLENGE'
+13:21:41	Deployed 2 webresource(s)
+13:21:41	Publishing 2 webresources...
+13:21:52	Publish complete.
+13:21:52	Processed 1 section(s)
+13:21:52	Processed 1 config(s)
+13:39:12	Deploying WebResources
+13:39:12	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+13:39:13	abc_/Script/Core/D365.Core.js has not changed, skipping...
+13:39:13	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+13:39:13	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+13:39:14	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+13:39:15	Adding to solution 'ABC_CHALLENGE'
+13:39:16	Deployed 1 webresource(s)
+13:39:16	Publishing 1 webresources...
+13:39:28	Publish complete.
+13:39:28	Processed 1 section(s)
+13:39:28	Processed 1 config(s)
+13:44:16	Deploying WebResources
+13:44:16	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+13:44:17	Updating Webresource 'abc_\Script\Core\D365.Core.js' -> 'abc_/Script/Core/D365.Core.js'
+13:44:19	Adding to solution 'ABC_CHALLENGE'
+13:44:20	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+13:44:20	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+13:44:20	abc_/Script/Ribbons/contact.Ribbon.js has not changed, skipping...
+13:44:20	Deployed 1 webresource(s)
+13:44:20	Publishing 1 webresources...
+13:44:30	Publish complete.
+13:44:30	Processed 1 section(s)
+13:44:30	Processed 1 config(s)
+13:46:27	Deploying WebResources
+13:46:27	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+13:46:28	abc_/Script/Core/D365.Core.js has not changed, skipping...
+13:46:28	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+13:46:28	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+13:46:29	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+13:46:30	Adding to solution 'ABC_CHALLENGE'
+13:46:31	Deployed 1 webresource(s)
+13:46:31	Publishing 1 webresources...
+13:46:38	Publish complete.
+13:46:38	Processed 1 section(s)
+13:46:38	Processed 1 config(s)
+13:50:15	Deploying WebResources
+13:50:15	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+13:50:16	abc_/Script/Core/D365.Core.js has not changed, skipping...
+13:50:16	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+13:50:16	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+13:50:17	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+13:50:18	Adding to solution 'ABC_CHALLENGE'
+13:50:19	Deployed 1 webresource(s)
+13:50:19	Publishing 1 webresources...
+13:50:23	Publish complete.
+13:50:23	Processed 1 section(s)
+13:50:23	Processed 1 config(s)
+13:53:26	Deploying WebResources
+13:53:26	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+13:53:27	abc_/Script/Core/D365.Core.js has not changed, skipping...
+13:53:27	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+13:53:28	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+13:53:28	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+13:53:30	Adding to solution 'ABC_CHALLENGE'
+13:53:31	Deployed 1 webresource(s)
+13:53:31	Publishing 1 webresources...
+13:53:37	Publish complete.
+13:53:37	Processed 1 section(s)
+13:53:37	Processed 1 config(s)
+13:59:16	Deploying WebResources
+13:59:16	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+13:59:16	abc_/Script/Core/D365.Core.js has not changed, skipping...
+13:59:17	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+13:59:17	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+13:59:18	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+13:59:19	Adding to solution 'ABC_CHALLENGE'
+13:59:20	Deployed 1 webresource(s)
+13:59:20	Publishing 1 webresources...
+13:59:27	Publish complete.
+13:59:28	Processed 1 section(s)
+13:59:28	Processed 1 config(s)
+14:12:58	Deploying WebResources
+14:12:58	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+14:12:59	abc_/Script/Core/D365.Core.js has not changed, skipping...
+14:12:59	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+14:13:00	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+14:13:00	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+14:13:03	Adding to solution 'ABC_CHALLENGE'
+14:13:04	Deployed 1 webresource(s)
+14:13:04	Publishing 1 webresources...
+14:13:16	Publish complete.
+14:13:16	Processed 1 section(s)
+14:13:16	Processed 1 config(s)
+14:17:41	Deploying WebResources
+14:17:41	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+14:17:41	abc_/Script/Core/D365.Core.js has not changed, skipping...
+14:17:42	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+14:17:42	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+14:17:43	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+14:17:45	Adding to solution 'ABC_CHALLENGE'
+14:17:45	Deployed 1 webresource(s)
+14:17:45	Publishing 1 webresources...
+14:17:56	Publish complete.
+14:17:56	Processed 1 section(s)
+14:17:56	Processed 1 config(s)
+14:21:24	Deploying WebResources
+14:21:24	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+14:21:24	abc_/Script/Core/D365.Core.js has not changed, skipping...
+14:21:25	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+14:21:25	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+14:21:26	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+14:21:27	Adding to solution 'ABC_CHALLENGE'
+14:21:28	Deployed 1 webresource(s)
+14:21:28	Publishing 1 webresources...
+14:21:39	Publish complete.
+14:21:39	Processed 1 section(s)
+14:21:39	Processed 1 config(s)
+08:23:31	Deploying WebResources
+08:23:31	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+08:23:32	abc_/Script/Core/D365.Core.js has not changed, skipping...
+08:23:32	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+08:23:33	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+08:23:33	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+08:23:38	Adding to solution 'ABC_CHALLENGE'
+08:23:40	Deployed 1 webresource(s)
+08:23:40	Publishing 1 webresources...
+08:23:52	Publish complete.
+08:23:52	Processed 1 section(s)
+08:23:52	Processed 1 config(s)
+08:29:35	Deploying WebResources
+08:29:35	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+08:29:36	Updating Webresource 'abc_\Script\Core\D365.Core.js' -> 'abc_/Script/Core/D365.Core.js'
+08:29:38	Adding to solution 'ABC_CHALLENGE'
+08:29:39	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+08:29:39	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+08:29:40	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+08:29:41	Adding to solution 'ABC_CHALLENGE'
+08:29:42	Deployed 2 webresource(s)
+08:29:42	Publishing 2 webresources...
+08:29:47	Publish complete.
+08:29:47	Processed 1 section(s)
+08:29:47	Processed 1 config(s)
+08:33:40	Deploying WebResources
+08:33:40	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+08:33:40	Updating Webresource 'abc_\Script\Core\D365.Core.js' -> 'abc_/Script/Core/D365.Core.js'
+08:33:42	Adding to solution 'ABC_CHALLENGE'
+08:33:43	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+08:33:43	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+08:33:44	abc_/Script/Ribbons/contact.Ribbon.js has not changed, skipping...
+08:33:44	Deployed 1 webresource(s)
+08:33:44	Publishing 1 webresources...
+08:33:48	Publish complete.
+08:33:48	Processed 1 section(s)
+08:33:48	Processed 1 config(s)
+08:47:26	Deploying WebResources
+08:47:26	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+08:47:27	abc_/Script/Core/D365.Core.js has not changed, skipping...
+08:47:27	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+08:47:27	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+08:47:28	abc_/Script/Ribbons/contact.Ribbon.js has not changed, skipping...
+08:47:28	Deployed 0 webresource(s)
+08:47:28	Publishing 0 webresources...
+08:47:28	Publish complete.
+08:47:28	Processed 1 section(s)
+08:47:28	Processed 1 config(s)
+08:59:28	Deploying WebResources
+08:59:28	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+08:59:28	abc_/Script/Core/D365.Core.js has not changed, skipping...
+08:59:29	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+08:59:29	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+08:59:30	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+08:59:31	Adding to solution 'ABC_CHALLENGE'
+08:59:32	Deployed 1 webresource(s)
+08:59:32	Publishing 1 webresources...
+08:59:35	Publish complete.
+08:59:35	Processed 1 section(s)
+08:59:35	Processed 1 config(s)
+09:06:41	Deploying WebResources
+09:06:41	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+09:06:42	abc_/Script/Core/D365.Core.js has not changed, skipping...
+09:06:42	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+09:06:43	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+09:06:43	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+09:06:45	Adding to solution 'ABC_CHALLENGE'
+09:06:46	Deployed 1 webresource(s)
+09:06:46	Publishing 1 webresources...
+09:06:50	Publish complete.
+09:06:50	Processed 1 section(s)
+09:06:50	Processed 1 config(s)
+09:42:15	Deploying WebResources
+09:42:15	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+09:42:15	abc_/Script/Core/D365.Core.js has not changed, skipping...
+09:42:16	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+09:42:16	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+09:42:17	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+09:42:18	Adding to solution 'ABC_CHALLENGE'
+09:42:19	Deployed 1 webresource(s)
+09:42:19	Publishing 1 webresources...
+09:42:24	Publish complete.
+09:42:24	Processed 1 section(s)
+09:42:24	Processed 1 config(s)
+09:44:57	Deploying WebResources
+09:44:58	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+09:44:58	abc_/Script/Core/D365.Core.js has not changed, skipping...
+09:44:58	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+09:44:59	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+09:44:59	abc_/Script/Ribbons/contact.Ribbon.js has not changed, skipping...
+09:44:59	Deployed 0 webresource(s)
+09:44:59	Publishing 0 webresources...
+09:44:59	Publish complete.
+09:44:59	Processed 1 section(s)
+09:44:59	Processed 1 config(s)
+09:50:46	Deploying WebResources
+09:50:46	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+09:50:46	Updating Webresource 'abc_\Script\Core\D365.Core.js' -> 'abc_/Script/Core/D365.Core.js'
+09:50:48	Adding to solution 'ABC_CHALLENGE'
+09:50:49	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+09:50:50	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+09:50:50	abc_/Script/Ribbons/contact.Ribbon.js has not changed, skipping...
+09:50:50	Deployed 1 webresource(s)
+09:50:50	Publishing 1 webresources...
+09:50:55	Publish complete.
+09:50:55	Processed 1 section(s)
+09:50:55	Processed 1 config(s)
+10:04:27	Deploying WebResources
+10:04:27	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+10:04:28	abc_/Script/Core/D365.Core.js has not changed, skipping...
+10:04:28	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+10:04:28	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+10:04:29	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+10:04:30	Adding to solution 'ABC_CHALLENGE'
+10:04:31	Deployed 1 webresource(s)
+10:04:31	Publishing 1 webresources...
+10:04:35	Publish complete.
+10:04:35	Processed 1 section(s)
+10:04:35	Processed 1 config(s)
+10:09:30	Deploying WebResources
+10:09:30	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+10:09:30	abc_/Script/Core/D365.Core.js has not changed, skipping...
+10:09:31	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+10:09:31	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+10:09:32	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+10:09:33	Adding to solution 'ABC_CHALLENGE'
+10:09:34	Deployed 1 webresource(s)
+10:09:34	Publishing 1 webresources...
+10:09:37	Publish complete.
+10:09:37	Processed 1 section(s)
+10:09:37	Processed 1 config(s)
+10:16:16	Deploying WebResources
+10:16:16	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+10:16:17	abc_/Script/Core/D365.Core.js has not changed, skipping...
+10:16:17	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+10:16:18	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+10:16:18	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+10:16:20	Adding to solution 'ABC_CHALLENGE'
+10:16:21	Deployed 1 webresource(s)
+10:16:21	Publishing 1 webresources...
+10:16:24	Publish complete.
+10:16:24	Processed 1 section(s)
+10:16:24	Processed 1 config(s)
+10:21:25	Deploying WebResources
+10:21:25	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+10:21:25	abc_/Script/Core/D365.Core.js has not changed, skipping...
+10:21:26	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+10:21:26	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+10:21:27	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+10:21:28	Adding to solution 'ABC_CHALLENGE'
+10:21:29	Deployed 1 webresource(s)
+10:21:29	Publishing 1 webresources...
+10:21:33	Publish complete.
+10:21:33	Processed 1 section(s)
+10:21:33	Processed 1 config(s)
+10:26:56	Deploying WebResources
+10:26:56	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+10:26:56	abc_/Script/Core/D365.Core.js has not changed, skipping...
+10:26:57	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+10:26:57	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+10:26:58	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+10:26:59	Adding to solution 'ABC_CHALLENGE'
+10:27:00	Deployed 1 webresource(s)
+10:27:00	Publishing 1 webresources...
+10:27:04	Publish complete.
+10:27:04	Processed 1 section(s)
+10:27:04	Processed 1 config(s)
+10:30:02	Deploying WebResources
+10:30:02	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+10:30:02	abc_/Script/Core/D365.Core.js has not changed, skipping...
+10:30:03	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+10:30:03	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+10:30:04	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+10:30:05	Adding to solution 'ABC_CHALLENGE'
+10:30:06	Deployed 1 webresource(s)
+10:30:06	Publishing 1 webresources...
+10:30:10	Publish complete.
+10:30:10	Processed 1 section(s)
+10:30:10	Processed 1 config(s)
+16:28:57	Deploying WebResources
+16:28:57	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+16:28:57	abc_/Script/Core/D365.Core.js has not changed, skipping...
+16:28:58	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+16:28:58	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+16:29:00	Adding to solution 'ABC_CHALLENGE'
+16:29:02	abc_/Script/Ribbons/contact.Ribbon.js has not changed, skipping...
+16:29:02	Deployed 1 webresource(s)
+16:29:02	Publishing 1 webresources...
+16:29:05	Publish complete.
+16:29:05	Processed 1 section(s)
+16:29:05	Processed 1 config(s)
+16:31:06	Deploying WebResources
+16:31:06	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+16:31:07	abc_/Script/Core/D365.Core.js has not changed, skipping...
+16:31:07	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+16:31:08	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+16:31:09	Adding to solution 'ABC_CHALLENGE'
+16:31:10	abc_/Script/Ribbons/contact.Ribbon.js has not changed, skipping...
+16:31:10	Deployed 1 webresource(s)
+16:31:10	Publishing 1 webresources...
+16:31:14	Publish complete.
+16:31:14	Processed 1 section(s)
+16:31:14	Processed 1 config(s)
+16:33:17	Deploying WebResources
+16:33:17	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+16:33:17	abc_/Script/Core/D365.Core.js has not changed, skipping...
+16:33:18	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+16:33:18	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+16:33:18	abc_/Script/Ribbons/contact.Ribbon.js has not changed, skipping...
+16:33:18	Deployed 0 webresource(s)
+16:33:18	Publishing 0 webresources...
+16:33:18	Publish complete.
+16:33:18	Processed 1 section(s)
+16:33:18	Processed 1 config(s)
+16:40:59	Deploying WebResources
+16:40:59	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+16:41:00	abc_/Script/Core/D365.Core.js has not changed, skipping...
+16:41:00	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+16:41:01	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+16:41:02	Adding to solution 'ABC_CHALLENGE'
+16:41:03	abc_/Script/Ribbons/contact.Ribbon.js has not changed, skipping...
+16:41:03	Deployed 1 webresource(s)
+16:41:03	Publishing 1 webresources...
+16:41:06	Publish complete.
+16:41:06	Processed 1 section(s)
+16:41:06	Processed 1 config(s)
+16:44:22	Deploying WebResources
+16:44:22	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+16:44:22	abc_/Script/Core/D365.Core.js has not changed, skipping...
+16:44:23	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+16:44:23	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+16:44:24	Adding to solution 'ABC_CHALLENGE'
+16:44:25	abc_/Script/Ribbons/contact.Ribbon.js has not changed, skipping...
+16:44:25	Deployed 1 webresource(s)
+16:44:25	Publishing 1 webresources...
+16:44:29	Publish complete.
+16:44:29	Processed 1 section(s)
+16:44:29	Processed 1 config(s)
+19:10:34	Deploying WebResources
+19:10:34	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+19:10:34	abc_/Script/Core/D365.Core.js has not changed, skipping...
+19:10:35	Updating Webresource 'abc_\Script\Core\Francis_ABC.Core.js' -> 'abc_/Script/Core/Francis_ABC.Core.js'
+19:10:40	Adding to solution 'ABC_CHALLENGE'
+19:10:41	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+19:10:43	Adding to solution 'ABC_CHALLENGE'
+19:10:45	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+19:10:47	Adding to solution 'ABC_CHALLENGE'
+19:10:47	Deployed 3 webresource(s)
+19:10:47	Publishing 3 webresources...
+19:10:59	Publish complete.
+19:10:59	Processed 1 section(s)
+19:10:59	Processed 1 config(s)
+19:17:11	Deploying WebResources
+19:17:11	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+19:17:12	abc_/Script/Core/D365.Core.js has not changed, skipping...
+19:17:12	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+19:17:12	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+19:17:14	Adding to solution 'ABC_CHALLENGE'
+19:17:15	abc_/Script/Ribbons/contact.Ribbon.js has not changed, skipping...
+19:17:15	Deployed 1 webresource(s)
+19:17:15	Publishing 1 webresources...
+19:17:20	Publish complete.
+19:17:20	Processed 1 section(s)
+19:17:20	Processed 1 config(s)
+19:34:43	Deploying WebResources
+19:34:43	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+19:34:44	abc_/Script/Core/D365.Core.js has not changed, skipping...
+19:34:44	Updating Webresource 'abc_\Script\Core\Francis_ABC.Core.js' -> 'abc_/Script/Core/Francis_ABC.Core.js'
+19:34:46	Adding to solution 'ABC_CHALLENGE'
+19:34:47	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+19:34:48	Adding to solution 'ABC_CHALLENGE'
+19:34:49	abc_/Script/Ribbons/contact.Ribbon.js has not changed, skipping...
+19:34:49	Deployed 2 webresource(s)
+19:34:49	Publishing 2 webresources...
+19:34:53	Publish complete.
+19:34:53	Processed 1 section(s)
+19:34:53	Processed 1 config(s)
+19:39:11	Deploying WebResources
+19:39:11	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+19:39:11	abc_/Script/Core/D365.Core.js has not changed, skipping...
+19:39:12	Updating Webresource 'abc_\Script\Core\Francis_ABC.Core.js' -> 'abc_/Script/Core/Francis_ABC.Core.js'
+19:39:13	Adding to solution 'ABC_CHALLENGE'
+19:39:14	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+19:39:15	Adding to solution 'ABC_CHALLENGE'
+19:39:16	abc_/Script/Ribbons/contact.Ribbon.js has not changed, skipping...
+19:39:16	Deployed 2 webresource(s)
+19:39:16	Publishing 2 webresources...
+19:39:20	Publish complete.
+19:39:20	Processed 1 section(s)
+19:39:20	Processed 1 config(s)
+19:44:54	Deploying WebResources
+19:44:54	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+19:44:54	abc_/Script/Core/D365.Core.js has not changed, skipping...
+19:44:55	Updating Webresource 'abc_\Script\Core\Francis_ABC.Core.js' -> 'abc_/Script/Core/Francis_ABC.Core.js'
+19:44:56	Adding to solution 'ABC_CHALLENGE'
+19:44:57	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+19:44:57	abc_/Script/Ribbons/contact.Ribbon.js has not changed, skipping...
+19:44:57	Deployed 1 webresource(s)
+19:44:57	Publishing 1 webresources...
+19:45:01	Publish complete.
+19:45:01	Processed 1 section(s)
+19:45:01	Processed 1 config(s)
+19:52:47	Deploying WebResources
+19:52:47	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+19:52:48	abc_/Script/Core/D365.Core.js has not changed, skipping...
+19:52:48	Updating Webresource 'abc_\Script\Core\Francis_ABC.Core.js' -> 'abc_/Script/Core/Francis_ABC.Core.js'
+19:52:50	Adding to solution 'ABC_CHALLENGE'
+19:52:51	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+19:52:51	abc_/Script/Ribbons/contact.Ribbon.js has not changed, skipping...
+19:52:51	Deployed 1 webresource(s)
+19:52:51	Publishing 1 webresources...
+19:52:55	Publish complete.
+19:52:55	Processed 1 section(s)
+19:52:55	Processed 1 config(s)
+19:59:04	Deploying WebResources
+19:59:04	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+19:59:05	abc_/Script/Core/D365.Core.js has not changed, skipping...
+19:59:05	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+19:59:05	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+19:59:07	Adding to solution 'ABC_CHALLENGE'
+19:59:08	abc_/Script/Ribbons/contact.Ribbon.js has not changed, skipping...
+19:59:08	Deployed 1 webresource(s)
+19:59:08	Publishing 1 webresources...
+19:59:12	Publish complete.
+19:59:12	Processed 1 section(s)
+19:59:12	Processed 1 config(s)
+20:01:06	Deploying WebResources
+20:01:06	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+20:01:06	abc_/Script/Core/D365.Core.js has not changed, skipping...
+20:01:07	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+20:01:07	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+20:01:08	Adding to solution 'ABC_CHALLENGE'
+20:01:10	abc_/Script/Ribbons/contact.Ribbon.js has not changed, skipping...
+20:01:10	Deployed 1 webresource(s)
+20:01:10	Publishing 1 webresources...
+20:01:15	Publish complete.
+20:01:15	Processed 1 section(s)
+20:01:15	Processed 1 config(s)
+20:06:33	Deploying WebResources
+20:06:33	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+20:06:34	abc_/Script/Core/D365.Core.js has not changed, skipping...
+20:06:34	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+20:06:34	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+20:09:09	Deploying WebResources
+20:09:09	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+20:09:09	abc_/Script/Core/D365.Core.js has not changed, skipping...
+20:09:10	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+20:09:10	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+20:11:01	Deploying WebResources
+20:11:01	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+20:11:01	abc_/Script/Core/D365.Core.js has not changed, skipping...
+20:11:02	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+20:11:02	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+20:11:45	Adding to solution 'ABC_CHALLENGE'
+20:11:46	abc_/Script/Ribbons/contact.Ribbon.js has not changed, skipping...
+20:11:46	Deployed 1 webresource(s)
+20:11:46	Publishing 1 webresources...
+20:14:07	Deploying WebResources
+20:14:07	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+20:14:07	abc_/Script/Core/D365.Core.js has not changed, skipping...
+20:14:08	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+20:14:08	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+20:14:10	Adding to solution 'ABC_CHALLENGE'
+20:14:11	abc_/Script/Ribbons/contact.Ribbon.js has not changed, skipping...
+20:14:11	Deployed 1 webresource(s)
+20:14:11	Publishing 1 webresources...
+20:14:21	Publish complete.
+20:14:21	Processed 1 section(s)
+20:14:21	Processed 1 config(s)
+20:18:58	Deploying WebResources
+20:18:58	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+20:18:59	Updating Webresource 'abc_\Script\Core\D365.Core.js' -> 'abc_/Script/Core/D365.Core.js'
+20:19:00	Adding to solution 'ABC_CHALLENGE'
+20:19:01	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+20:19:02	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+20:19:02	abc_/Script/Ribbons/contact.Ribbon.js has not changed, skipping...
+20:19:02	Deployed 1 webresource(s)
+20:19:02	Publishing 1 webresources...
+20:19:06	Publish complete.
+20:19:06	Processed 1 section(s)
+20:19:06	Processed 1 config(s)
+08:41:47	Deploying WebResources
+08:41:47	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+08:41:47	Updating Webresource 'abc_\Script\Core\D365.Core.js' -> 'abc_/Script/Core/D365.Core.js'
+08:41:51	Adding to solution 'ABC_CHALLENGE'
+08:41:52	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+08:41:53	Updating Webresource 'abc_\Script\Forms\contact.Main.js' -> 'abc_/Script/Forms/contact.Main.js'
+08:41:54	Adding to solution 'ABC_CHALLENGE'
+08:41:55	Updating Webresource 'abc_\Script\Ribbons\contact.Ribbon.js' -> 'abc_/Script/Ribbons/contact.Ribbon.js'
+08:41:57	Adding to solution 'ABC_CHALLENGE'
+08:41:57	Deployed 3 webresource(s)
+08:41:57	Publishing 3 webresources...
+08:42:07	Publish complete.
+08:42:07	Processed 1 section(s)
+08:42:07	Processed 1 config(s)
+08:52:26	Deploying WebResources
+08:52:26	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+08:52:26	Updating Webresource 'abc_\Script\Core\D365.Core.js' -> 'abc_/Script/Core/D365.Core.js'
+08:52:28	Adding to solution 'ABC_CHALLENGE'
+08:52:29	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+08:52:29	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+08:52:30	abc_/Script/Ribbons/contact.Ribbon.js has not changed, skipping...
+08:52:30	Deployed 1 webresource(s)
+08:52:30	Publishing 1 webresources...
+08:52:34	Publish complete.
+08:52:34	Processed 1 section(s)
+08:52:34	Processed 1 config(s)
+09:11:35	Deploying WebResources
+09:11:35	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+09:11:35	Updating Webresource 'abc_\Script\Core\D365.Core.js' -> 'abc_/Script/Core/D365.Core.js'
+09:11:37	Adding to solution 'ABC_CHALLENGE'
+09:11:38	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+09:11:38	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+09:11:39	abc_/Script/Ribbons/contact.Ribbon.js has not changed, skipping...
+09:11:39	Deployed 1 webresource(s)
+09:11:39	Publishing 1 webresources...
+09:11:42	Publish complete.
+09:11:42	Processed 1 section(s)
+09:11:42	Processed 1 config(s)
+09:15:08	Deploying WebResources
+09:15:08	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+09:15:09	Updating Webresource 'abc_\Script\Core\D365.Core.js' -> 'abc_/Script/Core/D365.Core.js'
+09:15:11	Adding to solution 'ABC_CHALLENGE'
+09:15:12	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+09:15:12	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+09:15:12	abc_/Script/Ribbons/contact.Ribbon.js has not changed, skipping...
+09:15:12	Deployed 1 webresource(s)
+09:15:12	Publishing 1 webresources...
+09:15:16	Publish complete.
+09:15:16	Processed 1 section(s)
+09:15:16	Processed 1 config(s)
+09:21:38	Deploying WebResources
+09:21:38	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+09:21:39	abc_/Script/Core/D365.Core.js has not changed, skipping...
+09:21:39	Updating Webresource 'abc_\Script\Core\Francis_ABC.Core.js' -> 'abc_/Script/Core/Francis_ABC.Core.js'
+09:21:41	Adding to solution 'ABC_CHALLENGE'
+09:21:42	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+09:21:42	abc_/Script/Ribbons/contact.Ribbon.js has not changed, skipping...
+09:21:42	Deployed 1 webresource(s)
+09:21:42	Publishing 1 webresources...
+09:21:46	Publish complete.
+09:21:46	Processed 1 section(s)
+09:21:46	Processed 1 config(s)
+09:22:47	Deploying WebResources
+09:22:47	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+09:22:48	abc_/Script/Core/D365.Core.js has not changed, skipping...
+09:22:48	Updating Webresource 'abc_\Script\Core\Francis_ABC.Core.js' -> 'abc_/Script/Core/Francis_ABC.Core.js'
+09:22:50	Adding to solution 'ABC_CHALLENGE'
+09:22:52	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+09:22:52	abc_/Script/Ribbons/contact.Ribbon.js has not changed, skipping...
+09:22:52	Deployed 1 webresource(s)
+09:22:52	Publishing 1 webresources...
+09:22:57	Publish complete.
+09:22:57	Processed 1 section(s)
+09:22:57	Processed 1 config(s)
+09:28:16	Deploying WebResources
+09:28:16	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+09:28:17	Updating Webresource 'abc_\Script\Core\D365.Core.js' -> 'abc_/Script/Core/D365.Core.js'
+09:28:18	Adding to solution 'ABC_CHALLENGE'
+09:28:19	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+09:28:20	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+09:28:20	abc_/Script/Ribbons/contact.Ribbon.js has not changed, skipping...
+09:28:20	Deployed 1 webresource(s)
+09:28:20	Publishing 1 webresources...
+09:28:24	Publish complete.
+09:28:24	Processed 1 section(s)
+09:28:24	Processed 1 config(s)
+09:30:57	Deploying WebResources
+09:30:57	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+09:30:58	abc_/Script/Core/D365.Core.js has not changed, skipping...
+09:30:58	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+09:30:59	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+09:30:59	abc_/Script/Ribbons/contact.Ribbon.js has not changed, skipping...
+09:30:59	Deployed 0 webresource(s)
+09:30:59	Publishing 0 webresources...
+09:30:59	Publish complete.
+09:30:59	Processed 1 section(s)
+09:30:59	Processed 1 config(s)
+09:32:39	Deploying WebResources
+09:32:39	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+09:32:39	Updating Webresource 'abc_\Script\Core\D365.Core.js' -> 'abc_/Script/Core/D365.Core.js'
+09:32:41	Adding to solution 'ABC_CHALLENGE'
+09:32:42	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+09:32:43	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+09:32:43	abc_/Script/Ribbons/contact.Ribbon.js has not changed, skipping...
+09:32:43	Deployed 1 webresource(s)
+09:32:43	Publishing 1 webresources...
+09:32:47	Publish complete.
+09:32:47	Processed 1 section(s)
+09:32:47	Processed 1 config(s)
+09:35:48	Deploying WebResources
+09:35:48	Using Config 'C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Solution'
+09:35:49	abc_/Script/Core/D365.Core.js has not changed, skipping...
+09:35:49	abc_/Script/Core/Francis_ABC.Core.js has not changed, skipping...
+09:35:49	abc_/Script/Forms/contact.Main.js has not changed, skipping...
+09:35:50	abc_/Script/Ribbons/contact.Ribbon.js has not changed, skipping...
+09:35:50	Deployed 0 webresource(s)
+09:35:50	Publishing 0 webresources...
+09:35:50	Publish complete.
+09:35:50	Processed 1 section(s)
+09:35:50	Processed 1 config(s)

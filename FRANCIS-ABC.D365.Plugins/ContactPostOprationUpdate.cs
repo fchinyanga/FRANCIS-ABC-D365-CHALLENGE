@@ -2,8 +2,8 @@
 namespace Francis_ABC.D365.Plugins
 {
 
-  using Francis_ABC.D365.Plugins.Core.Managers;
-  using Francis_ABC.D365.Plugins.Entities;
+  using Francis_ABC.D365.Core.Managers;
+  using Francis_ABC.D365.Entities;
 
   [CrmPluginRegistration(
     MessageNameEnum.Create,
@@ -29,7 +29,7 @@ namespace Francis_ABC.D365.Plugins
       localContext.Trace($"Entered my method Execute()");
       Contact contactPre = localContext.PluginExecutionContext.PreEntityImages["contactPostOperationUpdatePreImage"].ToEntity<Contact>();
       Contact contactPost = localContext.PluginExecutionContext.PostEntityImages["contactPostOperationUpdatePostImage"].ToEntity<Contact>();
-      ContactManager.NotifyClientAboutChanges(localContext.OrganizationService, localContext, localContext.ServiceProvider, localContext.TracingService, contactPre, contactPost);
+      ContactManager.NotifyClientAboutChanges(localContext.OrganizationService, localContext.PluginExecutionContext, localContext.ServiceProvider, localContext.TracingService, contactPre, contactPost);
     }
   }
 

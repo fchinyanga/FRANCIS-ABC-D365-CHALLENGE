@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Francis_ABC.D365.Plugins.Core.Managers;
-using Francis_ABC.D365.Plugins.Entities;
+using Francis_ABC.D365.Core.Managers;
+using Francis_ABC.D365.Entities;
 using Francis_ABC.D365.UnitTests.Helper;
 using Microsoft.Xrm.Sdk;
 using Xunit;
@@ -19,7 +19,7 @@ namespace Francis_ABC.D365.UnitTests
       Assert.Equal(unitTestHelper.Entities.ContactTestContact1.Id, unitTestHelper.ExecutionContext.OutputParameters["id"]);
       Assert.Equal(unitTestHelper.Entities.ContactTestContact1.ContactId, ((Entity)unitTestHelper.ExecutionContext.InputParameters["Target"]).Id);
       //Assert.Throws<InvalidOperationException>(() =>
-      TaskManager.CreateTaskAboutAFollowUpMeeting(unitTestHelper.OrganizationService, unitTestHelper.ExecutionContext, unitTestHelper.ServiceProvider, unitTestHelper.TracingService);//);
+      TaskManager.CreateTaskAboutAFollowUpMeeting(unitTestHelper.OrganizationService, unitTestHelper.ExecutionContext, unitTestHelper.TracingService);//);
       var activities = unitTestHelper.XrmFakedContext.CreateQuery<Task>().Where(activity => (activity.RegardingObjectId.Id == unitTestHelper.Entities.ContactTestContact1.Id && activity.Subject == "Send e-mail to the new customer.")).ToList();
       foreach (var activity in activities)
       {

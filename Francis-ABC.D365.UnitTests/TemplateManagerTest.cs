@@ -1,7 +1,7 @@
 ﻿namespace Francis_ABC.D365.UnitTests
 {
-  using Francis_ABC.D365.Core.Managers;
-  using Francis_ABC.D365.Plugins.Entities;
+  using Francis_ABC.D365.Core.Managers.BES.D365.Core.Managers;
+  using Francis_ABC.D365.Entities;
   using Francis_ABC.D365.UnitTests.Helper;
   using Xunit;
 

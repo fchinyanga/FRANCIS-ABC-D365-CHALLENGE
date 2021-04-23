@@ -24,12 +24,16 @@ saveappsetting</ActionsToSkip>
     <CreateOneFilePerOptionSet>false</CreateOneFilePerOptionSet>
     <DeleteFilesFromOutputFolders>false</DeleteFilesFromOutputFolders>
     <EntitiesToSkip />
-    <EntitiesWhitelist>contact|
+    <EntitiesWhitelist>activityparty|
+contact|
+email|
 role|
 systemuser|
 systemuserroles|
+task|
 team|
-teammembership</EntitiesWhitelist>
+teammembership|
+template</EntitiesWhitelist>
     <EntityAttributeSpecifiedNames />
     <EntityPrefixesToSkip />
     <EntityPrefixesWhitelist />

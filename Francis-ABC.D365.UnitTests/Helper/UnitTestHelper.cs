@@ -5,7 +5,7 @@
   using FakeXrmEasy;
   using FakeXrmEasy.Extensions;
   using Francis_ABC.D365.Core.Logging;
-  using Francis_ABC.D365.Plugins.Entities;
+  using Francis_ABC.D365.Entities;
   using Francis_ABC.D365.UnitTests.Mock;
   using Microsoft.Xrm.Sdk;
   using Microsoft.Xrm.Sdk.Metadata;

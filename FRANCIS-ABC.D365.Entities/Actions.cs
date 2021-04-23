@@ -6,7 +6,7 @@
 //     Changes to this file may cause incorrect behavior and will be lost if
 //     the code is regenerated.
 // </auto-generated>
-// Created via this command line: "C:\Users\Fchinyanga\AppData\Roaming\MscrmTools\XrmToolBox\Plugins\DLaB.EarlyBoundGenerator\crmsvcutil.exe" /url:"https://francissingularmsdynamics.api.crm4.dynamics.com" /generateActions:"true" /out:"C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Entities\Actions.cs" /namespace:"Francis_ABC.D365.Entities" /SuppressGeneratedCodeAttribute:"true" /codecustomization:"DLaB.CrmSvcUtilExtensions.Action.CustomizeCodeDomService,DLaB.CrmSvcUtilExtensions" /codegenerationservice:"DLaB.CrmSvcUtilExtensions.Action.CustomCodeGenerationService,DLaB.CrmSvcUtilExtensions" /codewriterfilter:"DLaB.CrmSvcUtilExtensions.Action.CodeWriterFilterService,DLaB.CrmSvcUtilExtensions" /metadataproviderservice:"DLaB.CrmSvcUtilExtensions.BaseMetadataProviderService,DLaB.CrmSvcUtilExtensions" 
+// Created via this command line: "C:\Users\Fchinyanga\AppData\Roaming\MscrmTools\XrmToolBox\Plugins\DLaB.EarlyBoundGenerator\crmsvcutil.exe" /url:"https://francissingularmsdynamics.api.crm4.dynamics.com" /generateActions:"true" /out:"C:\Users\Fchinyanga\source\repos\Francis-ABC-D365-Challenge\FRANCIS-ABC.D365.Entities\Actions.cs" /namespace:"Francis_ABC.D365.Entities" /SuppressGeneratedCodeAttribute:"true" /codecustomization:"DLaB.CrmSvcUtilExtensions.Action.CustomizeCodeDomService,DLaB.CrmSvcUtilExtensions" /codegenerationservice:"DLaB.CrmSvcUtilExtensions.Action.CustomCodeGenerationService,DLaB.CrmSvcUtilExtensions" /codewriterfilter:"DLaB.CrmSvcUtilExtensions.Action.CodeWriterFilterService,DLaB.CrmSvcUtilExtensions" /metadataproviderservice:"DLaB.CrmSvcUtilExtensions.BaseMetadataProviderService,DLaB.CrmSvcUtilExtensions" 
 //------------------------------------------------------------------------------
 
 namespace Francis_ABC.D365.Entities
@@ -10841,6 +10841,81 @@ namespace Francis_ABC.D365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011/msdyn/")]
+	[Microsoft.Xrm.Sdk.Client.RequestProxyAttribute("msdyn_URFirstPartyIntegrationApi")]
+	public partial class msdyn_URFirstPartyIntegrationApiRequest : Microsoft.Xrm.Sdk.OrganizationRequest
+	{
+		
+		public string MethodName
+		{
+			get
+			{
+				if (this.Parameters.Contains("MethodName"))
+				{
+					return ((string)(this.Parameters["MethodName"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+			set
+			{
+				this.Parameters["MethodName"] = value;
+			}
+		}
+		
+		public string InputParameter
+		{
+			get
+			{
+				if (this.Parameters.Contains("InputParameter"))
+				{
+					return ((string)(this.Parameters["InputParameter"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+			set
+			{
+				this.Parameters["InputParameter"] = value;
+			}
+		}
+		
+		public msdyn_URFirstPartyIntegrationApiRequest()
+		{
+			this.RequestName = "msdyn_URFirstPartyIntegrationApi";
+			this.MethodName = default(string);
+		}
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011/msdyn/")]
+	[Microsoft.Xrm.Sdk.Client.ResponseProxyAttribute("msdyn_URFirstPartyIntegrationApi")]
+	public partial class msdyn_URFirstPartyIntegrationApiResponse : Microsoft.Xrm.Sdk.OrganizationResponse
+	{
+		
+		public msdyn_URFirstPartyIntegrationApiResponse()
+		{
+		}
+		
+		public string Result
+		{
+			get
+			{
+				if (this.Results.Contains("Result"))
+				{
+					return ((string)(this.Results["Result"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+		}
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011/msdyn/")]
 	[Microsoft.Xrm.Sdk.Client.RequestProxyAttribute("msdyn_GetTimeZoneUtcOffset")]
 	public partial class msdyn_GetTimeZoneUtcOffsetRequest : Microsoft.Xrm.Sdk.OrganizationRequest
 	{
@@ -12367,6 +12442,47 @@ namespace Francis_ABC.D365.Entities
 	{
 		
 		public PvaAuthorizeResponse()
+		{
+		}
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011/msdyn/")]
+	[Microsoft.Xrm.Sdk.Client.RequestProxyAttribute("msdyn_EnableUnifiedRouting")]
+	public partial class msdyn_EnableUnifiedRoutingRequest : Microsoft.Xrm.Sdk.OrganizationRequest
+	{
+		
+		public bool Enable
+		{
+			get
+			{
+				if (this.Parameters.Contains("Enable"))
+				{
+					return ((bool)(this.Parameters["Enable"]));
+				}
+				else
+				{
+					return default(bool);
+				}
+			}
+			set
+			{
+				this.Parameters["Enable"] = value;
+			}
+		}
+		
+		public msdyn_EnableUnifiedRoutingRequest()
+		{
+			this.RequestName = "msdyn_EnableUnifiedRouting";
+			this.Enable = default(bool);
+		}
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011/msdyn/")]
+	[Microsoft.Xrm.Sdk.Client.ResponseProxyAttribute("msdyn_EnableUnifiedRouting")]
+	public partial class msdyn_EnableUnifiedRoutingResponse : Microsoft.Xrm.Sdk.OrganizationResponse
+	{
+		
+		public msdyn_EnableUnifiedRoutingResponse()
 		{
 		}
 	}
@@ -30678,6 +30794,61 @@ namespace Francis_ABC.D365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011/msdyn/")]
+	[Microsoft.Xrm.Sdk.Client.RequestProxyAttribute("msdyn_RetrieveKnowledgeSearchModifiers")]
+	public partial class msdyn_RetrieveKnowledgeSearchModifiersRequest : Microsoft.Xrm.Sdk.OrganizationRequest
+	{
+		
+		public string RuntimeMode
+		{
+			get
+			{
+				if (this.Parameters.Contains("RuntimeMode"))
+				{
+					return ((string)(this.Parameters["RuntimeMode"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+			set
+			{
+				this.Parameters["RuntimeMode"] = value;
+			}
+		}
+		
+		public msdyn_RetrieveKnowledgeSearchModifiersRequest()
+		{
+			this.RequestName = "msdyn_RetrieveKnowledgeSearchModifiers";
+		}
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011/msdyn/")]
+	[Microsoft.Xrm.Sdk.Client.ResponseProxyAttribute("msdyn_RetrieveKnowledgeSearchModifiers")]
+	public partial class msdyn_RetrieveKnowledgeSearchModifiersResponse : Microsoft.Xrm.Sdk.OrganizationResponse
+	{
+		
+		public msdyn_RetrieveKnowledgeSearchModifiersResponse()
+		{
+		}
+		
+		public string Result
+		{
+			get
+			{
+				if (this.Results.Contains("Result"))
+				{
+					return ((string)(this.Results["Result"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+		}
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011/msdyn/")]
 	[Microsoft.Xrm.Sdk.Client.RequestProxyAttribute("msdyn_CheckForActiveLayersOnProcesses")]
 	public partial class msdyn_CheckForActiveLayersOnProcessesRequest : Microsoft.Xrm.Sdk.OrganizationRequest
 	{
@@ -31478,6 +31649,91 @@ namespace Francis_ABC.D365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011/msdyn/")]
+	[Microsoft.Xrm.Sdk.Client.RequestProxyAttribute("msdyn_CustomerServiceSolutionHealthRulesRegistration")]
+	public partial class msdyn_CustomerServiceSolutionHealthRulesRegistrationRequest : Microsoft.Xrm.Sdk.OrganizationRequest
+	{
+		
+		public string SolutionNames
+		{
+			get
+			{
+				if (this.Parameters.Contains("SolutionNames"))
+				{
+					return ((string)(this.Parameters["SolutionNames"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+			set
+			{
+				this.Parameters["SolutionNames"] = value;
+			}
+		}
+		
+		public msdyn_CustomerServiceSolutionHealthRulesRegistrationRequest()
+		{
+			this.RequestName = "msdyn_CustomerServiceSolutionHealthRulesRegistration";
+		}
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011/msdyn/")]
+	[Microsoft.Xrm.Sdk.Client.ResponseProxyAttribute("msdyn_CustomerServiceSolutionHealthRulesRegistration")]
+	public partial class msdyn_CustomerServiceSolutionHealthRulesRegistrationResponse : Microsoft.Xrm.Sdk.OrganizationResponse
+	{
+		
+		public msdyn_CustomerServiceSolutionHealthRulesRegistrationResponse()
+		{
+		}
+		
+		public string Message
+		{
+			get
+			{
+				if (this.Results.Contains("Message"))
+				{
+					return ((string)(this.Results["Message"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+		}
+		
+		public string ReturnStatus
+		{
+			get
+			{
+				if (this.Results.Contains("ReturnStatus"))
+				{
+					return ((string)(this.Results["ReturnStatus"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+		}
+		
+		public string RuleId
+		{
+			get
+			{
+				if (this.Results.Contains("RuleId"))
+				{
+					return ((string)(this.Results["RuleId"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+		}
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011/msdyn/")]
 	[Microsoft.Xrm.Sdk.Client.RequestProxyAttribute("msdyn_SmsChannelConfigurationShouldHaveWorkStreamRule")]
 	public partial class msdyn_SmsChannelConfigurationShouldHaveWorkStreamRuleRequest : Microsoft.Xrm.Sdk.OrganizationRequest
 	{
@@ -32248,6 +32504,62 @@ namespace Francis_ABC.D365.Entities
 	{
 		
 		public msdyn_RequirementGroupOverviewResponse()
+		{
+		}
+		
+		public string Result
+		{
+			get
+			{
+				if (this.Results.Contains("Result"))
+				{
+					return ((string)(this.Results["Result"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+		}
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011/msdyn/")]
+	[Microsoft.Xrm.Sdk.Client.RequestProxyAttribute("msdyn_RetrievePersonalizationFilters")]
+	public partial class msdyn_RetrievePersonalizationFiltersRequest : Microsoft.Xrm.Sdk.OrganizationRequest
+	{
+		
+		public string AttributesToFilter
+		{
+			get
+			{
+				if (this.Parameters.Contains("AttributesToFilter"))
+				{
+					return ((string)(this.Parameters["AttributesToFilter"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+			set
+			{
+				this.Parameters["AttributesToFilter"] = value;
+			}
+		}
+		
+		public msdyn_RetrievePersonalizationFiltersRequest()
+		{
+			this.RequestName = "msdyn_RetrievePersonalizationFilters";
+			this.AttributesToFilter = default(string);
+		}
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011/msdyn/")]
+	[Microsoft.Xrm.Sdk.Client.ResponseProxyAttribute("msdyn_RetrievePersonalizationFilters")]
+	public partial class msdyn_RetrievePersonalizationFiltersResponse : Microsoft.Xrm.Sdk.OrganizationResponse
+	{
+		
+		public msdyn_RetrievePersonalizationFiltersResponse()
 		{
 		}
 		
@@ -34076,6 +34388,102 @@ namespace Francis_ABC.D365.Entities
 				else
 				{
 					return default(string);
+				}
+			}
+		}
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011/msdyn/")]
+	[Microsoft.Xrm.Sdk.Client.RequestProxyAttribute("msdyn_CheckIfCSFormsFromUnmanagedLayer")]
+	public partial class msdyn_CheckIfCSFormsFromUnmanagedLayerRequest : Microsoft.Xrm.Sdk.OrganizationRequest
+	{
+		
+		public msdyn_CheckIfCSFormsFromUnmanagedLayerRequest()
+		{
+			this.RequestName = "msdyn_CheckIfCSFormsFromUnmanagedLayer";
+		}
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011/msdyn/")]
+	[Microsoft.Xrm.Sdk.Client.ResponseProxyAttribute("msdyn_CheckIfCSFormsFromUnmanagedLayer")]
+	public partial class msdyn_CheckIfCSFormsFromUnmanagedLayerResponse : Microsoft.Xrm.Sdk.OrganizationResponse
+	{
+		
+		public msdyn_CheckIfCSFormsFromUnmanagedLayerResponse()
+		{
+		}
+		
+		public string HelpLink
+		{
+			get
+			{
+				if (this.Results.Contains("HelpLink"))
+				{
+					return ((string)(this.Results["HelpLink"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+		}
+		
+		public string Message
+		{
+			get
+			{
+				if (this.Results.Contains("Message"))
+				{
+					return ((string)(this.Results["Message"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+		}
+		
+		public string ResultEntities
+		{
+			get
+			{
+				if (this.Results.Contains("ResultEntities"))
+				{
+					return ((string)(this.Results["ResultEntities"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+		}
+		
+		public int ReturnSeverity
+		{
+			get
+			{
+				if (this.Results.Contains("ReturnSeverity"))
+				{
+					return ((int)(this.Results["ReturnSeverity"]));
+				}
+				else
+				{
+					return default(int);
+				}
+			}
+		}
+		
+		public int ReturnStatus
+		{
+			get
+			{
+				if (this.Results.Contains("ReturnStatus"))
+				{
+					return ((int)(this.Results["ReturnStatus"]));
+				}
+				else
+				{
+					return default(int);
 				}
 			}
 		}
@@ -36384,6 +36792,121 @@ namespace Francis_ABC.D365.Entities
 		}
 	}
 	
+	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011/msdyn/")]
+	[Microsoft.Xrm.Sdk.Client.RequestProxyAttribute("msdyn_CheckIfEmailResponseTemplateEntityTypeMatch")]
+	public partial class msdyn_CheckIfEmailResponseTemplateEntityTypeMatchRequest : Microsoft.Xrm.Sdk.OrganizationRequest
+	{
+		
+		public string SolutionId
+		{
+			get
+			{
+				if (this.Parameters.Contains("SolutionId"))
+				{
+					return ((string)(this.Parameters["SolutionId"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+			set
+			{
+				this.Parameters["SolutionId"] = value;
+			}
+		}
+		
+		public msdyn_CheckIfEmailResponseTemplateEntityTypeMatchRequest()
+		{
+			this.RequestName = "msdyn_CheckIfEmailResponseTemplateEntityTypeMatch";
+		}
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011/msdyn/")]
+	[Microsoft.Xrm.Sdk.Client.ResponseProxyAttribute("msdyn_CheckIfEmailResponseTemplateEntityTypeMatch")]
+	public partial class msdyn_CheckIfEmailResponseTemplateEntityTypeMatchResponse : Microsoft.Xrm.Sdk.OrganizationResponse
+	{
+		
+		public msdyn_CheckIfEmailResponseTemplateEntityTypeMatchResponse()
+		{
+		}
+		
+		public string Message
+		{
+			get
+			{
+				if (this.Results.Contains("Message"))
+				{
+					return ((string)(this.Results["Message"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+		}
+		
+		public string ResultEntities
+		{
+			get
+			{
+				if (this.Results.Contains("ResultEntities"))
+				{
+					return ((string)(this.Results["ResultEntities"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+		}
+		
+		public int ReturnLevel
+		{
+			get
+			{
+				if (this.Results.Contains("ReturnLevel"))
+				{
+					return ((int)(this.Results["ReturnLevel"]));
+				}
+				else
+				{
+					return default(int);
+				}
+			}
+		}
+		
+		public int ReturnSeverity
+		{
+			get
+			{
+				if (this.Results.Contains("ReturnSeverity"))
+				{
+					return ((int)(this.Results["ReturnSeverity"]));
+				}
+				else
+				{
+					return default(int);
+				}
+			}
+		}
+		
+		public int ReturnStatus
+		{
+			get
+			{
+				if (this.Results.Contains("ReturnStatus"))
+				{
+					return ((int)(this.Results["ReturnStatus"]));
+				}
+				else
+				{
+					return default(int);
+				}
+			}
+		}
+	}
+	
 	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/crm/2011/Contracts")]
 	[Microsoft.Xrm.Sdk.Client.RequestProxyAttribute("RetrieveUserSetOfPrivilegesByNames")]
 	public partial class RetrieveUserSetOfPrivilegesByNamesRequest : Microsoft.Xrm.Sdk.OrganizationRequest
@@ -36915,6 +37438,61 @@ namespace Francis_ABC.D365.Entities
 					return default(string);
 				}
 			}
+		}
+		
+		public string Result
+		{
+			get
+			{
+				if (this.Results.Contains("Result"))
+				{
+					return ((string)(this.Results["Result"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+		}
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011/msdyn/")]
+	[Microsoft.Xrm.Sdk.Client.RequestProxyAttribute("msdyn_RetrieveKnowledgeSearchFilters")]
+	public partial class msdyn_RetrieveKnowledgeSearchFiltersRequest : Microsoft.Xrm.Sdk.OrganizationRequest
+	{
+		
+		public string SearchFiltersMetadata
+		{
+			get
+			{
+				if (this.Parameters.Contains("SearchFiltersMetadata"))
+				{
+					return ((string)(this.Parameters["SearchFiltersMetadata"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+			set
+			{
+				this.Parameters["SearchFiltersMetadata"] = value;
+			}
+		}
+		
+		public msdyn_RetrieveKnowledgeSearchFiltersRequest()
+		{
+			this.RequestName = "msdyn_RetrieveKnowledgeSearchFilters";
+		}
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011/msdyn/")]
+	[Microsoft.Xrm.Sdk.Client.ResponseProxyAttribute("msdyn_RetrieveKnowledgeSearchFilters")]
+	public partial class msdyn_RetrieveKnowledgeSearchFiltersResponse : Microsoft.Xrm.Sdk.OrganizationResponse
+	{
+		
+		public msdyn_RetrieveKnowledgeSearchFiltersResponse()
+		{
 		}
 		
 		public string Result
@@ -38662,6 +39240,63 @@ namespace Francis_ABC.D365.Entities
 			}
 		}
 		
+		public int NumberOfResults
+		{
+			get
+			{
+				if (this.Parameters.Contains("NumberOfResults"))
+				{
+					return ((int)(this.Parameters["NumberOfResults"]));
+				}
+				else
+				{
+					return default(int);
+				}
+			}
+			set
+			{
+				this.Parameters["NumberOfResults"] = value;
+			}
+		}
+		
+		public string _SearchWindowStart
+		{
+			get
+			{
+				if (this.Parameters.Contains("_SearchWindowStart"))
+				{
+					return ((string)(this.Parameters["_SearchWindowStart"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+			set
+			{
+				this.Parameters["_SearchWindowStart"] = value;
+			}
+		}
+		
+		public string _SearchWindowEnd
+		{
+			get
+			{
+				if (this.Parameters.Contains("_SearchWindowEnd"))
+				{
+					return ((string)(this.Parameters["_SearchWindowEnd"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+			set
+			{
+				this.Parameters["_SearchWindowEnd"] = value;
+			}
+		}
+		
 		public _EvaluateSearchRequestRequest()
 		{
 			this.RequestName = "_EvaluateSearchRequest";
@@ -38961,6 +39596,62 @@ namespace Francis_ABC.D365.Entities
 				else
 				{
 					return default(Microsoft.Crm.Sdk.Messages.RolePrivilege[]);
+				}
+			}
+		}
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011/msdyn/")]
+	[Microsoft.Xrm.Sdk.Client.RequestProxyAttribute("msdyn_UnifiedRoutingSetupTrackerProvisionStatusCheck")]
+	public partial class msdyn_UnifiedRoutingSetupTrackerProvisionStatusCheckRequest : Microsoft.Xrm.Sdk.OrganizationRequest
+	{
+		
+		public bool HasTimedOut
+		{
+			get
+			{
+				if (this.Parameters.Contains("HasTimedOut"))
+				{
+					return ((bool)(this.Parameters["HasTimedOut"]));
+				}
+				else
+				{
+					return default(bool);
+				}
+			}
+			set
+			{
+				this.Parameters["HasTimedOut"] = value;
+			}
+		}
+		
+		public msdyn_UnifiedRoutingSetupTrackerProvisionStatusCheckRequest()
+		{
+			this.RequestName = "msdyn_UnifiedRoutingSetupTrackerProvisionStatusCheck";
+			this.HasTimedOut = default(bool);
+		}
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011/msdyn/")]
+	[Microsoft.Xrm.Sdk.Client.ResponseProxyAttribute("msdyn_UnifiedRoutingSetupTrackerProvisionStatusCheck")]
+	public partial class msdyn_UnifiedRoutingSetupTrackerProvisionStatusCheckResponse : Microsoft.Xrm.Sdk.OrganizationResponse
+	{
+		
+		public msdyn_UnifiedRoutingSetupTrackerProvisionStatusCheckResponse()
+		{
+		}
+		
+		public bool Status
+		{
+			get
+			{
+				if (this.Results.Contains("Status"))
+				{
+					return ((bool)(this.Results["Status"]));
+				}
+				else
+				{
+					return default(bool);
 				}
 			}
 		}
@@ -40753,6 +41444,121 @@ namespace Francis_ABC.D365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011/msdyn/")]
+	[Microsoft.Xrm.Sdk.Client.RequestProxyAttribute("msdyn_CheckForConditionXmlFormat")]
+	public partial class msdyn_CheckForConditionXmlFormatRequest : Microsoft.Xrm.Sdk.OrganizationRequest
+	{
+		
+		public string SolutionId
+		{
+			get
+			{
+				if (this.Parameters.Contains("SolutionId"))
+				{
+					return ((string)(this.Parameters["SolutionId"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+			set
+			{
+				this.Parameters["SolutionId"] = value;
+			}
+		}
+		
+		public msdyn_CheckForConditionXmlFormatRequest()
+		{
+			this.RequestName = "msdyn_CheckForConditionXmlFormat";
+		}
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011/msdyn/")]
+	[Microsoft.Xrm.Sdk.Client.ResponseProxyAttribute("msdyn_CheckForConditionXmlFormat")]
+	public partial class msdyn_CheckForConditionXmlFormatResponse : Microsoft.Xrm.Sdk.OrganizationResponse
+	{
+		
+		public msdyn_CheckForConditionXmlFormatResponse()
+		{
+		}
+		
+		public string Message
+		{
+			get
+			{
+				if (this.Results.Contains("Message"))
+				{
+					return ((string)(this.Results["Message"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+		}
+		
+		public string ResultEntities
+		{
+			get
+			{
+				if (this.Results.Contains("ResultEntities"))
+				{
+					return ((string)(this.Results["ResultEntities"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+		}
+		
+		public int ReturnLevel
+		{
+			get
+			{
+				if (this.Results.Contains("ReturnLevel"))
+				{
+					return ((int)(this.Results["ReturnLevel"]));
+				}
+				else
+				{
+					return default(int);
+				}
+			}
+		}
+		
+		public int ReturnSeverity
+		{
+			get
+			{
+				if (this.Results.Contains("ReturnSeverity"))
+				{
+					return ((int)(this.Results["ReturnSeverity"]));
+				}
+				else
+				{
+					return default(int);
+				}
+			}
+		}
+		
+		public int ReturnStatus
+		{
+			get
+			{
+				if (this.Results.Contains("ReturnStatus"))
+				{
+					return ((int)(this.Results["ReturnStatus"]));
+				}
+				else
+				{
+					return default(int);
+				}
+			}
+		}
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011/msdyn/")]
 	[Microsoft.Xrm.Sdk.Client.RequestProxyAttribute("msdyn_GetOrganizationalUnitsWithinRadius")]
 	public partial class msdyn_GetOrganizationalUnitsWithinRadiusRequest : Microsoft.Xrm.Sdk.OrganizationRequest
 	{
@@ -41026,6 +41832,136 @@ namespace Francis_ABC.D365.Entities
 				else
 				{
 					return default(string);
+				}
+			}
+		}
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011/msdyn/")]
+	[Microsoft.Xrm.Sdk.Client.RequestProxyAttribute("msdyn_CheckIfAutoRouteToOwnerQueueEnabled")]
+	public partial class msdyn_CheckIfAutoRouteToOwnerQueueEnabledRequest : Microsoft.Xrm.Sdk.OrganizationRequest
+	{
+		
+		public string SolutionId
+		{
+			get
+			{
+				if (this.Parameters.Contains("SolutionId"))
+				{
+					return ((string)(this.Parameters["SolutionId"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+			set
+			{
+				this.Parameters["SolutionId"] = value;
+			}
+		}
+		
+		public msdyn_CheckIfAutoRouteToOwnerQueueEnabledRequest()
+		{
+			this.RequestName = "msdyn_CheckIfAutoRouteToOwnerQueueEnabled";
+		}
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011/msdyn/")]
+	[Microsoft.Xrm.Sdk.Client.ResponseProxyAttribute("msdyn_CheckIfAutoRouteToOwnerQueueEnabled")]
+	public partial class msdyn_CheckIfAutoRouteToOwnerQueueEnabledResponse : Microsoft.Xrm.Sdk.OrganizationResponse
+	{
+		
+		public msdyn_CheckIfAutoRouteToOwnerQueueEnabledResponse()
+		{
+		}
+		
+		public string HelpLink
+		{
+			get
+			{
+				if (this.Results.Contains("HelpLink"))
+				{
+					return ((string)(this.Results["HelpLink"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+		}
+		
+		public string Message
+		{
+			get
+			{
+				if (this.Results.Contains("Message"))
+				{
+					return ((string)(this.Results["Message"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+		}
+		
+		public string ResultEntities
+		{
+			get
+			{
+				if (this.Results.Contains("ResultEntities"))
+				{
+					return ((string)(this.Results["ResultEntities"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+		}
+		
+		public int ReturnLevel
+		{
+			get
+			{
+				if (this.Results.Contains("ReturnLevel"))
+				{
+					return ((int)(this.Results["ReturnLevel"]));
+				}
+				else
+				{
+					return default(int);
+				}
+			}
+		}
+		
+		public int ReturnSeverity
+		{
+			get
+			{
+				if (this.Results.Contains("ReturnSeverity"))
+				{
+					return ((int)(this.Results["ReturnSeverity"]));
+				}
+				else
+				{
+					return default(int);
+				}
+			}
+		}
+		
+		public int ReturnStatus
+		{
+			get
+			{
+				if (this.Results.Contains("ReturnStatus"))
+				{
+					return ((int)(this.Results["ReturnStatus"]));
+				}
+				else
+				{
+					return default(int);
 				}
 			}
 		}
@@ -41507,6 +42443,136 @@ namespace Francis_ABC.D365.Entities
 				else
 				{
 					return default(string);
+				}
+			}
+		}
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011/msdyn/")]
+	[Microsoft.Xrm.Sdk.Client.RequestProxyAttribute("msdyn_CheckIfActivityMonitorEnabled")]
+	public partial class msdyn_CheckIfActivityMonitorEnabledRequest : Microsoft.Xrm.Sdk.OrganizationRequest
+	{
+		
+		public string SolutionId
+		{
+			get
+			{
+				if (this.Parameters.Contains("SolutionId"))
+				{
+					return ((string)(this.Parameters["SolutionId"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+			set
+			{
+				this.Parameters["SolutionId"] = value;
+			}
+		}
+		
+		public msdyn_CheckIfActivityMonitorEnabledRequest()
+		{
+			this.RequestName = "msdyn_CheckIfActivityMonitorEnabled";
+		}
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011/msdyn/")]
+	[Microsoft.Xrm.Sdk.Client.ResponseProxyAttribute("msdyn_CheckIfActivityMonitorEnabled")]
+	public partial class msdyn_CheckIfActivityMonitorEnabledResponse : Microsoft.Xrm.Sdk.OrganizationResponse
+	{
+		
+		public msdyn_CheckIfActivityMonitorEnabledResponse()
+		{
+		}
+		
+		public string HelpLink
+		{
+			get
+			{
+				if (this.Results.Contains("HelpLink"))
+				{
+					return ((string)(this.Results["HelpLink"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+		}
+		
+		public string Message
+		{
+			get
+			{
+				if (this.Results.Contains("Message"))
+				{
+					return ((string)(this.Results["Message"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+		}
+		
+		public string ResultEntities
+		{
+			get
+			{
+				if (this.Results.Contains("ResultEntities"))
+				{
+					return ((string)(this.Results["ResultEntities"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+		}
+		
+		public int ReturnLevel
+		{
+			get
+			{
+				if (this.Results.Contains("ReturnLevel"))
+				{
+					return ((int)(this.Results["ReturnLevel"]));
+				}
+				else
+				{
+					return default(int);
+				}
+			}
+		}
+		
+		public int ReturnSeverity
+		{
+			get
+			{
+				if (this.Results.Contains("ReturnSeverity"))
+				{
+					return ((int)(this.Results["ReturnSeverity"]));
+				}
+				else
+				{
+					return default(int);
+				}
+			}
+		}
+		
+		public int ReturnStatus
+		{
+			get
+			{
+				if (this.Results.Contains("ReturnStatus"))
+				{
+					return ((int)(this.Results["ReturnStatus"]));
+				}
+				else
+				{
+					return default(int);
 				}
 			}
 		}
@@ -42968,6 +44034,121 @@ namespace Francis_ABC.D365.Entities
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011/msdyn/")]
+	[Microsoft.Xrm.Sdk.Client.RequestProxyAttribute("msdyn_CheckForWorkflowTypeOfRuleItems")]
+	public partial class msdyn_CheckForWorkflowTypeOfRuleItemsRequest : Microsoft.Xrm.Sdk.OrganizationRequest
+	{
+		
+		public string SolutionId
+		{
+			get
+			{
+				if (this.Parameters.Contains("SolutionId"))
+				{
+					return ((string)(this.Parameters["SolutionId"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+			set
+			{
+				this.Parameters["SolutionId"] = value;
+			}
+		}
+		
+		public msdyn_CheckForWorkflowTypeOfRuleItemsRequest()
+		{
+			this.RequestName = "msdyn_CheckForWorkflowTypeOfRuleItems";
+		}
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011/msdyn/")]
+	[Microsoft.Xrm.Sdk.Client.ResponseProxyAttribute("msdyn_CheckForWorkflowTypeOfRuleItems")]
+	public partial class msdyn_CheckForWorkflowTypeOfRuleItemsResponse : Microsoft.Xrm.Sdk.OrganizationResponse
+	{
+		
+		public msdyn_CheckForWorkflowTypeOfRuleItemsResponse()
+		{
+		}
+		
+		public string Message
+		{
+			get
+			{
+				if (this.Results.Contains("Message"))
+				{
+					return ((string)(this.Results["Message"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+		}
+		
+		public string ResultEntities
+		{
+			get
+			{
+				if (this.Results.Contains("ResultEntities"))
+				{
+					return ((string)(this.Results["ResultEntities"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+		}
+		
+		public int ReturnLevel
+		{
+			get
+			{
+				if (this.Results.Contains("ReturnLevel"))
+				{
+					return ((int)(this.Results["ReturnLevel"]));
+				}
+				else
+				{
+					return default(int);
+				}
+			}
+		}
+		
+		public int ReturnSeverity
+		{
+			get
+			{
+				if (this.Results.Contains("ReturnSeverity"))
+				{
+					return ((int)(this.Results["ReturnSeverity"]));
+				}
+				else
+				{
+					return default(int);
+				}
+			}
+		}
+		
+		public int ReturnStatus
+		{
+			get
+			{
+				if (this.Results.Contains("ReturnStatus"))
+				{
+					return ((int)(this.Results["ReturnStatus"]));
+				}
+				else
+				{
+					return default(int);
+				}
+			}
+		}
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute(Namespace="http://schemas.microsoft.com/xrm/2011/msdyn/")]
 	[Microsoft.Xrm.Sdk.Client.RequestProxyAttribute("msdyn_DecommissionFieldServiceSolutionHealthRules")]
 	public partial class msdyn_DecommissionFieldServiceSolutionHealthRulesRequest : Microsoft.Xrm.Sdk.OrganizationRequest
 	{
@@ -43990,6 +45171,25 @@ namespace Francis_ABC.D365.Entities
 			set
 			{
 				this.Parameters["SuggestionType"] = value;
+			}
+		}
+		
+		public string LanguageLocales
+		{
+			get
+			{
+				if (this.Parameters.Contains("LanguageLocales"))
+				{
+					return ((string)(this.Parameters["LanguageLocales"]));
+				}
+				else
+				{
+					return default(string);
+				}
+			}
+			set
+			{
+				this.Parameters["LanguageLocales"] = value;
 			}
 		}
 		

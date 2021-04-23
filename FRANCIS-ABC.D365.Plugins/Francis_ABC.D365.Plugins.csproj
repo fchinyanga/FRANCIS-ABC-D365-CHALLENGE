@@ -44,10 +44,10 @@
     <Compile Include="Bases\ILocalPluginContext.cs" />
     <Compile Include="Bases\LocalPluginContext.cs" />
     <Compile Include="Bases\PluginBase.cs" />
-    <Compile Include="Class1.cs" />
-    <Compile Include="ContactPostUpdate.cs" />
+    <Compile Include="ContactPostOperationCreateTask.cs" />
+    <Compile Include="ContactPostOprationUpdate.cs" />
     <Compile Include="ContactPreOperationCreate.cs" />
-    <Compile Include="CreateTaskOnCreateContact.cs" />
+    <Compile Include="ContactPreOperationUpdate.cs" />
     <Compile Include="CrmPluginRegistrationAttribute.cs" />
     <Compile Include="obj\Debug\.NETFramework,Version=v4.6.2.AssemblyAttributes.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />

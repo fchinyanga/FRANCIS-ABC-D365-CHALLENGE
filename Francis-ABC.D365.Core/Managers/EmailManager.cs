@@ -1,14 +1,14 @@
 ﻿using System;
-using Francis_ABC.D365.Plugins.Entities;
+using Francis_ABC.D365.Entities;
 using Microsoft.Crm.Sdk.Messages;
 using Microsoft.Xrm.Sdk;
 using Microsoft.Xrm.Sdk.Query;
 
-namespace Francis_ABC.D365.Plugins.Core.Managers
+namespace Francis_ABC.D365.Core.Managers
 {
   public class EmailManager
   {
-    public static void sendEmailFromTemplate(IOrganizationService organizationService, Contact contact, LocalPluginContext localContext, ITracingService tracingService,
+    public static void sendEmailFromTemplate(IOrganizationService organizationService, Contact contact, IPluginExecutionContext pluginExecutionContext, ITracingService tracingService,
             Money prevInvestment, Money newInvestment, double prevInterestRate, double newInterestRate, int? prevInvestmentPeriod,
     int? newInvestmentPeriod)
     {
@@ -19,7 +19,7 @@ namespace Francis_ABC.D365.Plugins.Core.Managers
         Guid templateId;
         ActivityParty fromParty = new ActivityParty
         {
-          PartyId = new EntityReference(SystemUser.EntityLogicalName, localContext.PluginExecutionContext.UserId)
+          PartyId = new EntityReference(SystemUser.EntityLogicalName, pluginExecutionContext.UserId)
         };
         // Create the 'To:' activity party for the email
         ActivityParty toParty = new ActivityParty

@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>8.0.30703</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{1576FD36-1267-4AD3-AD33-AC556376E8E8}</ProjectGuid>
+    <ProjectGuid>{B0E63F3C-EBDA-4E4A-823B-0C0BE4D23FAC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Francis_ABC.D365.Entities</RootNamespace>
-    <AssemblyName>Francis-ABC.D365.Entities</AssemblyName>
+    <RootNamespace>Francis_ABC.D365.Plugins</RootNamespace>
+    <AssemblyName>Francis-ABC.D365.Plugins</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -38,6 +38,7 @@
       <HintPath>..\packages\Microsoft.CrmSdk.CoreAssemblies.9.0.2.33\lib\net462\Microsoft.Xrm.Sdk.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Activities" />
     <Reference Include="System.Core" />
     <Reference Include="System.DirectoryServices" />
     <Reference Include="System.DirectoryServices.AccountManagement" />
@@ -55,21 +56,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Actions.cs" />
-    <Compile Include="Entities.cs" />
-    <Compile Include="OptionSets.cs" />
+    <Compile Include="Bases\ILocalPluginContext.cs" />
+    <Compile Include="Bases\LocalPluginContext.cs" />
+    <Compile Include="Bases\PluginBase.cs" />
+    <Compile Include="ContactPostOperationCreateTask.cs" />
+    <Compile Include="ContactPostOprationUpdate.cs" />
+    <Compile Include="ContactPreOperationCreate.cs" />
+    <Compile Include="ContactPreOperationUpdate.cs" />
+    <Compile Include="CrmPluginRegistrationAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Content Include="DLaB.EarlyBoundGenerator.Settings.xml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Francis-ABC.D365.Core\Francis-ABC.D365.Core.csproj">
+      <Project>{DADE928B-6075-4EDC-9A0E-6916DDC1A638}</Project>
+      <Name>Francis-ABC.D365.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Francis-ABC.D365.Entities\Francis-ABC.D365.Entities.csproj">
+      <Project>{1576FD36-1267-4AD3-AD33-AC556376E8E8}</Project>
+      <Name>Francis-ABC.D365.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
 </Project>

@@ -1,8 +1,8 @@
 ﻿namespace Francis_ABC.D365.Plugins.Plugins
 {
-  using Francis_ABC.D365.Plugins.Core.Helpers.Create;
-  using Francis_ABC.D365.Plugins.Core.Managers;
-  using Francis_ABC.D365.Plugins.Entities;
+  using Francis_ABC.D365.Core.Helpers.Plugins.Update;
+  using Francis_ABC.D365.Core.Managers;
+  using Francis_ABC.D365.Entities;
 
   [CrmPluginRegistration(
     MessageNameEnum.Create,

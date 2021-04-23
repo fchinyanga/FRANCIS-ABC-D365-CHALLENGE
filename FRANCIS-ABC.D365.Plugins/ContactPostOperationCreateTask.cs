@@ -1,7 +1,7 @@
 ﻿namespace Francis_ABC.D365.Plugins
 {
-  using Francis_ABC.D365.Plugins.Core.Managers;
-  using Francis_ABC.D365.Plugins.Entities;
+  using Francis_ABC.D365.Core.Managers;
+  using Francis_ABC.D365.Entities;
 
   [CrmPluginRegistration(
     MessageNameEnum.Create,
@@ -26,7 +26,7 @@
     protected override void ExecuteCrmPlugin(LocalPluginContext localContext)
     {
       localContext.Trace($"Entered my method create task .Execute()");
-      TaskManager.CreateTaskAboutAFollowUpMeeting(localContext.OrganizationService, localContext.ServiceProvider, localContext.TracingService);
+      TaskManager.CreateTaskAboutAFollowUpMeeting(localContext.OrganizationService, localContext.PluginExecutionContext, localContext.TracingService);
     }
   }
 

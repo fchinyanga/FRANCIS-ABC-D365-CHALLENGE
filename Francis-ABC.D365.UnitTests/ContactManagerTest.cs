@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
-using Francis_ABC.D365.Plugins.Core.Managers;
-using Francis_ABC.D365.Plugins.Entities;
+using Francis_ABC.D365.Core.Managers;
+using Francis_ABC.D365.Entities;
 using Francis_ABC.D365.UnitTests.Helper;
 using Microsoft.Xrm.Sdk;
 using Xunit;

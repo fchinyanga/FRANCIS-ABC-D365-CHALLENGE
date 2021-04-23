@@ -3,7 +3,7 @@
   using System;
   using System.Collections.Generic;
   using FakeXrmEasy;
-  using Francis_ABC.D365.Plugins.Entities;
+  using Francis_ABC.D365.Entities;
   using Microsoft.Xrm.Sdk;
 
   /// <summary>

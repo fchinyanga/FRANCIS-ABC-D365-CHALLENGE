@@ -6,7 +6,7 @@
 //     Changes to this file may cause incorrect behavior and will be lost if
 //     the code is regenerated.
 // </auto-generated>
-// Created via this command line: "C:\Users\Fchinyanga\AppData\Roaming\MscrmTools\XrmToolBox\Plugins\DLaB.EarlyBoundGenerator\crmsvcutil.exe" /url:"https://francissingularmsdynamics.api.crm4.dynamics.com" /namespace:"Francis_ABC.D365.Entities" /out:"C:\Users\Fchinyanga\source\repos\Francis-ABC.D365\Francis-ABC.D365.Entities\OptionSets.cs" /SuppressGeneratedCodeAttribute:"true" /codecustomization:"DLaB.CrmSvcUtilExtensions.OptionSet.CustomizeCodeDomService,DLaB.CrmSvcUtilExtensions" /codegenerationservice:"DLaB.CrmSvcUtilExtensions.OptionSet.CustomCodeGenerationService,DLaB.CrmSvcUtilExtensions" /codewriterfilter:"DLaB.CrmSvcUtilExtensions.OptionSet.CodeWriterFilterService,DLaB.CrmSvcUtilExtensions" /namingservice:"DLaB.CrmSvcUtilExtensions.NamingService,DLaB.CrmSvcUtilExtensions" /metadataproviderservice:"DLaB.CrmSvcUtilExtensions.BaseMetadataProviderService,DLaB.CrmSvcUtilExtensions" 
+// Created via this command line: "C:\Users\Fchinyanga\AppData\Roaming\MscrmTools\XrmToolBox\Plugins\DLaB.EarlyBoundGenerator\crmsvcutil.exe" /url:"https://francissingularmsdynamics.api.crm4.dynamics.com" /namespace:"Francis_ABC.D365.Entities" /out:"C:\Users\Fchinyanga\source\repos\Francis-ABC-D365-Challenge\FRANCIS-ABC.D365.Entities\OptionSets.cs" /SuppressGeneratedCodeAttribute:"true" /codecustomization:"DLaB.CrmSvcUtilExtensions.OptionSet.CustomizeCodeDomService,DLaB.CrmSvcUtilExtensions" /codegenerationservice:"DLaB.CrmSvcUtilExtensions.OptionSet.CustomCodeGenerationService,DLaB.CrmSvcUtilExtensions" /codewriterfilter:"DLaB.CrmSvcUtilExtensions.OptionSet.CodeWriterFilterService,DLaB.CrmSvcUtilExtensions" /namingservice:"DLaB.CrmSvcUtilExtensions.NamingService,DLaB.CrmSvcUtilExtensions" /metadataproviderservice:"DLaB.CrmSvcUtilExtensions.BaseMetadataProviderService,DLaB.CrmSvcUtilExtensions" 
 //------------------------------------------------------------------------------
 
 namespace Francis_ABC.D365.Entities
@@ -102,69 +102,6 @@ namespace Francis_ABC.D365.Entities
 		[System.Runtime.Serialization.EnumMemberAttribute()]
 		[OptionSetMetadataAttribute("Normal", 1)]
 		Normal = 1,
-	}
-	
-	[System.Runtime.Serialization.DataContractAttribute()]
-	public enum ActivityPointer_InstanceTypeCode
-	{
-		
-		[System.Runtime.Serialization.EnumMemberAttribute()]
-		[OptionSetMetadataAttribute("Not Recurring", 0)]
-		NotRecurring = 0,
-		
-		[System.Runtime.Serialization.EnumMemberAttribute()]
-		[OptionSetMetadataAttribute("Recurring Exception", 3)]
-		RecurringException = 3,
-		
-		[System.Runtime.Serialization.EnumMemberAttribute()]
-		[OptionSetMetadataAttribute("Recurring Future Exception", 4)]
-		RecurringFutureException = 4,
-		
-		[System.Runtime.Serialization.EnumMemberAttribute()]
-		[OptionSetMetadataAttribute("Recurring Instance", 2)]
-		RecurringInstance = 2,
-		
-		[System.Runtime.Serialization.EnumMemberAttribute()]
-		[OptionSetMetadataAttribute("Recurring Master", 1)]
-		RecurringMaster = 1,
-	}
-	
-	[System.Runtime.Serialization.DataContractAttribute()]
-	public enum ActivityPointer_PriorityCode
-	{
-		
-		[System.Runtime.Serialization.EnumMemberAttribute()]
-		[OptionSetMetadataAttribute("High", 2)]
-		High = 2,
-		
-		[System.Runtime.Serialization.EnumMemberAttribute()]
-		[OptionSetMetadataAttribute("Low", 0)]
-		Low = 0,
-		
-		[System.Runtime.Serialization.EnumMemberAttribute()]
-		[OptionSetMetadataAttribute("Normal", 1)]
-		Normal = 1,
-	}
-	
-	[System.Runtime.Serialization.DataContractAttribute()]
-	public enum ActivityPointer_StatusCode
-	{
-		
-		[System.Runtime.Serialization.EnumMemberAttribute()]
-		[OptionSetMetadataAttribute("Canceled", 2)]
-		Canceled = 3,
-		
-		[System.Runtime.Serialization.EnumMemberAttribute()]
-		[OptionSetMetadataAttribute("Completed", 1)]
-		Completed = 2,
-		
-		[System.Runtime.Serialization.EnumMemberAttribute()]
-		[OptionSetMetadataAttribute("Open", 0)]
-		Open = 1,
-		
-		[System.Runtime.Serialization.EnumMemberAttribute()]
-		[OptionSetMetadataAttribute("Scheduled", 3)]
-		Scheduled = 4,
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
@@ -759,75 +696,6 @@ namespace Francis_ABC.D365.Entities
 		[System.Runtime.Serialization.EnumMemberAttribute()]
 		[OptionSetMetadataAttribute("Team privileges only", 0)]
 		Teamprivilegesonly = 0,
-	}
-	
-	[System.Runtime.Serialization.DataContractAttribute()]
-	public enum SocialProfile_Community
-	{
-		
-		[System.Runtime.Serialization.EnumMemberAttribute()]
-		[OptionSetMetadataAttribute("Cortana", 0, "#0000ff")]
-		Cortana = 5,
-		
-		[System.Runtime.Serialization.EnumMemberAttribute()]
-		[OptionSetMetadataAttribute("Direct Line", 1, "#0000ff")]
-		DirectLine = 6,
-		
-		[System.Runtime.Serialization.EnumMemberAttribute()]
-		[OptionSetMetadataAttribute("Direct Line Speech", 3, "#0000ff")]
-		DirectLineSpeech = 8,
-		
-		[System.Runtime.Serialization.EnumMemberAttribute()]
-		[OptionSetMetadataAttribute("Email", 4, "#0000ff")]
-		Email = 9,
-		
-		[System.Runtime.Serialization.EnumMemberAttribute()]
-		[OptionSetMetadataAttribute("Facebook", 13, "", "Facebook item.")]
-		Facebook = 1,
-		
-		[System.Runtime.Serialization.EnumMemberAttribute()]
-		[OptionSetMetadataAttribute("GroupMe", 5, "#0000ff")]
-		GroupMe = 10,
-		
-		[System.Runtime.Serialization.EnumMemberAttribute()]
-		[OptionSetMetadataAttribute("Kik", 6, "#0000ff")]
-		Kik = 11,
-		
-		[System.Runtime.Serialization.EnumMemberAttribute()]
-		[OptionSetMetadataAttribute("Line", 11, "#0000ff")]
-		Line = 3,
-		
-		[System.Runtime.Serialization.EnumMemberAttribute()]
-		[OptionSetMetadataAttribute("Microsoft Teams", 2, "#0000ff")]
-		MicrosoftTeams = 7,
-		
-		[System.Runtime.Serialization.EnumMemberAttribute()]
-		[OptionSetMetadataAttribute("Other", 15, "", "Other default")]
-		Other = 0,
-		
-		[System.Runtime.Serialization.EnumMemberAttribute()]
-		[OptionSetMetadataAttribute("Skype", 8, "#0000ff")]
-		Skype = 13,
-		
-		[System.Runtime.Serialization.EnumMemberAttribute()]
-		[OptionSetMetadataAttribute("Slack", 9, "#0000ff")]
-		Slack = 14,
-		
-		[System.Runtime.Serialization.EnumMemberAttribute()]
-		[OptionSetMetadataAttribute("Telegram", 7, "#0000ff")]
-		Telegram = 12,
-		
-		[System.Runtime.Serialization.EnumMemberAttribute()]
-		[OptionSetMetadataAttribute("Twitter", 14, "", "Twitter.")]
-		Twitter = 2,
-		
-		[System.Runtime.Serialization.EnumMemberAttribute()]
-		[OptionSetMetadataAttribute("Wechat", 12, "#0000ff")]
-		Wechat = 4,
-		
-		[System.Runtime.Serialization.EnumMemberAttribute()]
-		[OptionSetMetadataAttribute("WhatsApp", 10, "#0000ff")]
-		WhatsApp = 15,
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]

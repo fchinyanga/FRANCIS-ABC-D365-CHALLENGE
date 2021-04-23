@@ -1,20 +1,19 @@
 ﻿using System;
-using Francis_ABC.D365.Plugins.Entities;
+using Francis_ABC.D365.Entities;
 using Microsoft.Xrm.Sdk;
 
-namespace Francis_ABC.D365.Plugins.Core.Managers
+namespace Francis_ABC.D365.Core.Managers
 {
-  class TaskManager
+  public class TaskManager
   {
 
     public TaskManager()
     {
     }
 
-    public static void CreateTaskAboutAFollowUpMeeting(IOrganizationService service, IServiceProvider serviceProvider, ITracingService tracingService)
+    public static void CreateTaskAboutAFollowUpMeeting(IOrganizationService service, IPluginExecutionContext pluginExecutionContext, ITracingService tracingService)
     {
-      IPluginExecutionContext pluginExecutionContext = (IPluginExecutionContext)
-    serviceProvider.GetService(typeof(IPluginExecutionContext));
+
       try
       {
         tracingService.Trace("Executing create Task Method");

@@ -43,6 +43,7 @@ namespace Francis_ABC.D365.Core.Managers
           Description = HtlStringBody(clientName, (decimal)prevInvestment.Value, (int)prevInvestmentPeriod, prevInterestRate,
        (decimal)newInvestment.Value, (int)newInvestmentPeriod, newInterestRate),
           DirectionCode = true,
+          RegardingObjectId = contact.ToEntityReference()
 
 
         };

@@ -6,7 +6,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FF86AB87-F8D9-4F2C-8E8B-727DB3DF0CF4}</ProjectGuid>
+    <ProjectGuid>{733CDE04-8846-456E-BAAD-247760BDD1F0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Francis_ABC.D365.UnitTests</RootNamespace>

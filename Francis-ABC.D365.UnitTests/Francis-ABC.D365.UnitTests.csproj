@@ -9,8 +9,8 @@
     <ProjectGuid>{FF86AB87-F8D9-4F2C-8E8B-727DB3DF0CF4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Francis_ABC.D365.UnitTest</RootNamespace>
-    <AssemblyName>Francis-ABC.D365.UnitTest</AssemblyName>
+    <RootNamespace>Francis_ABC.D365.UnitTests</RootNamespace>
+    <AssemblyName>Francis-ABC.D365.UnitTests</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

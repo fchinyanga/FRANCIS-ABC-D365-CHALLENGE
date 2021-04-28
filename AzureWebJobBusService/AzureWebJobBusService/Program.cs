@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 using AzureWebJobBusService.config;
 using Microsoft.Extensions.Configuration;
@@ -16,12 +16,10 @@ namespace AzureWebJobBusService
     public IConfigurationRoot Configuration { get; set; }
     static void Main()
     {
-      var environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
-      //var currentPath = Directory.GetCurrentDirectory().ToString();
-      var currentPath = "C:/Users/Fchinyanga/source/repos/AzureWebJobBusService/AzureWebJobBusService/appsettings.json";
+      var fileSettingsPath = "appsettings.json";
       var config = new ConfigurationBuilder()
             .SetBasePath(Directory.GetCurrentDirectory())
-            .AddJsonFile(currentPath, optional: false, reloadOnChange: true)
+            .AddJsonFile(fileSettingsPath, optional: false, reloadOnChange: true)
             .AddEnvironmentVariables()
             .Build();
 

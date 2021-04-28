@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1433
@@ -11,9 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Francis-ABC.D365.Solution",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Francis-ABC.D365.Workflows", "Francis-ABC.D365.Workflows\Francis-ABC.D365.Workflows.csproj", "{25EA9D94-39C4-4C6F-8B2A-998FE5D1E0F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Francis-ABC.D365.UnitTest", "Francis-ABC.D365.UnitTest\Francis-ABC.D365.UnitTest.csproj", "{FF86AB87-F8D9-4F2C-8E8B-727DB3DF0CF4}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Francis-ABC.D365.Plugins", "Francis-ABC.D365.Plugins\Francis-ABC.D365.Plugins.csproj", "{B0E63F3C-EBDA-4E4A-823B-0C0BE4D23FAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Francis-ABC.D365.UnitTests", "Francis-ABC.D365.UnitTests\Francis-ABC.D365.UnitTests.csproj", "{733CDE04-8846-456E-BAAD-247760BDD1F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureWebJobBusService", "..\AzureWebJobBusService\AzureWebJobBusService\AzureWebJobBusService.csproj", "{7E32828B-25FA-4B9B-8EDA-D1B2D75DAA45}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

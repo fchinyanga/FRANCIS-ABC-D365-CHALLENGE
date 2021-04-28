@@ -1,4 +1,9 @@
-﻿using Microsoft.Extensions.Hosting;
+﻿using System;
+using System.IO;
+using AzureWebJobBusService.config;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
 namespace AzureWebJobBusService
@@ -8,15 +13,28 @@ namespace AzureWebJobBusService
   {
     // Please set the following connection strings in app.config for this WebJob to run:
     // AzureWebJobsDashboard and AzureWebJobsStorage
+    public IConfigurationRoot Configuration { get; set; }
     static void Main()
     {
+      var environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
+      //var currentPath = Directory.GetCurrentDirectory().ToString();
+      var currentPath = "C:/Users/Fchinyanga/source/repos/AzureWebJobBusService/AzureWebJobBusService/appsettings.json";
+      var config = new ConfigurationBuilder()
+            .SetBasePath(Directory.GetCurrentDirectory())
+            .AddJsonFile(currentPath, optional: false, reloadOnChange: true)
+            .AddEnvironmentVariables()
+            .Build();
+
+      IServiceCollection services = new ServiceCollection();
+      services.AddSingleton<ConfigSettings>(config.GetSection("ConfigSettings").Get<ConfigSettings>());
+
+      var provider = services.BuildServiceProvider();
       var builder = new HostBuilder();
-      var connString = "";
       builder.ConfigureWebJobs(b =>
-       {
-         b.AddAzureStorageCoreServices();
-         b.AddServiceBus(c => c.ConnectionString = connString);
-       });
+        {
+          b.AddAzureStorageCoreServices();
+          b.AddServiceBus(c => c.ConnectionString = ConfigSettings.AzureWebJobsServiceBus);
+        });
       builder.ConfigureLogging((context, b) =>
       {
         b.AddConsole();

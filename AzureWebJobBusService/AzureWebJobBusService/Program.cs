@@ -16,10 +16,10 @@ namespace AzureWebJobBusService
     public IConfigurationRoot Configuration { get; set; }
     static void Main()
     {
-      var fileSettingsPath = "appsettings.json";
+      var settingsFilePath = "appsettings.json";
       var config = new ConfigurationBuilder()
             .SetBasePath(Directory.GetCurrentDirectory())
-            .AddJsonFile(fileSettingsPath, optional: false, reloadOnChange: true)
+            .AddJsonFile(settingsFilePath, optional: false, reloadOnChange: true)
             .AddEnvironmentVariables()
             .Build();
 

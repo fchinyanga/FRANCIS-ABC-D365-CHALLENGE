@@ -1,0 +1,57 @@
+﻿<Entities>
+  <Entity>
+    <EntityName>Contact</EntityName>
+    <EntityChildren>
+      <Entity>
+        <EntityName>Account</EntityName>
+        <EntityChildren>
+          <Entity>
+            <EntityName>Investment Types</EntityName>
+            <EntityChildren>
+              <Entity>
+                <EntityName>Long Term Investment</EntityName>
+              </Entity>
+              <Entity>
+                <EntityName>Short Term Investment</EntityName>
+              </Entity>
+            </EntityChildren>
+          </Entity>
+          <Entity>
+            <EntityName>Invested Items</EntityName>
+          </Entity>
+        </EntityChildren>
+      </Entity>
+      <Entity>
+        <EntityName>Cars</EntityName>
+      </Entity>
+      <Entity>
+        <EntityName>Houses</EntityName>
+      </Entity>
+    </EntityChildren>
+  </Entity>
+  <Entity>
+    <EntityName>Client</EntityName>
+    <EntityChildren>
+      <Entity>
+        <EntityName>Client Investment</EntityName>
+        <EntityChildren>
+          <Entity>
+            <EntityName>Client Investment Type</EntityName>
+          </Entity>
+          <Entity>
+            <EntityName>Client Cars Type</EntityName>
+          </Entity>
+          <Entity>
+            <EntityName>Client Houses Types</EntityName>
+          </Entity>
+        </EntityChildren>
+      </Entity>
+      <Entity>
+        <EntityName>Client Cars</EntityName>
+      </Entity>
+      <Entity>
+        <EntityName>Client Houses</EntityName>
+      </Entity>
+    </EntityChildren>
+  </Entity>
+</Entities>

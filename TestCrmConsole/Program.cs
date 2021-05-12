@@ -35,15 +35,14 @@ namespace TestCrmConsole
         if (crmServiceClient.IsReady)
         {
           var watch = System.Diagnostics.Stopwatch.StartNew();
-          Console.Write("Connection successful");
-          Console.WriteLine("=============");
+          Console.WriteLine("======================== Connection successful ===============================");
           QueryExpression query = new QueryExpression("contact");
           query.ColumnSet = new ColumnSet(true);
-          // query.Criteria = new FilterExpression();
-          // query.Criteria.AddCondition("abc_clientage", ConditionOperator.GreaterEqual, 0);
+          query.Criteria = new FilterExpression();
+          query.Criteria.AddCondition("abc_clientage", ConditionOperator.GreaterEqual, 0);
 
           EntityCollection enColl = crmServiceClient.RetrieveMultiple(query);
-          Console.WriteLine("The number of records is:\t" + enColl.Entities.Count.ToString());
+          Console.WriteLine("================ The number of records is: " + enColl.Entities.Count.ToString() + " ===================\n\n");
 
           Guid ContactId = new Guid();
           SqlConnection con = new SqlConnection(connStr);
@@ -59,7 +58,7 @@ namespace TestCrmConsole
             #endregion
             #region check columns
             var estReturn = enColl.Entities[i].Attributes.ContainsKey("abc_clientage") ? 10 : 200;
-            Console.WriteLine("===========================Record\t" + i.ToString() + "===================================================");
+            Console.WriteLine("=========================== Record " + i.ToString() + " ===================================================");
             if (enColl.Entities[i].Attributes.ContainsKey("contactid"))
             {
               ContactId = (Guid)enColl.Entities[i].Attributes["contactid"];
@@ -172,7 +171,7 @@ namespace TestCrmConsole
             else
             {
               #region update contact
-              Console.WriteLine("\tContact with contactId\t" + ContactId + "\t already exist");
+              Console.WriteLine("\tContact with contactId\t" + ContactId + "\t already exist and will be updated");
               try
               {
 
@@ -201,11 +200,15 @@ namespace TestCrmConsole
               }
               #endregion
             }
+            /*if (i == 2)
+            {
+              crmServiceClient.Delete("contact", ContactId);
+            }*/
           }
           con.Close();
           watch.Stop();
           var elapsedMs = watch.ElapsedMilliseconds;
-          Console.WriteLine("Retrieved and Write to database in:\t" + elapsedMs + "ms");
+          Console.WriteLine("\n\n======== Retrieved and Write to database in: " + elapsedMs + "ms ==================");
         }
         else
         {
